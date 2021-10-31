@@ -1,0 +1,123 @@
+
+body{
+
+}
+
+h1{
+
+}
+
+p1{
+
+}
+
+ul{
+  list-style-type: none;
+  list-style-type:
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+.Full_Page {
+
+}
+
+.Navbar{
+
+}
+
+.nav-link{
+  font-size: 22px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+nav li {
+    display: inline-block;
+    height: 100%;
+    padding: 70px;
+}
+
+.Links{
+
+}
+
+div#links_div {
+    float:left;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+div#links_div .ul {
+    margin: 0;
+    padding: 0;
+}
+
+div#links_div .li {
+    display: inline;
+}
+
+.Tagline{
+
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 1000px;
+}
+
+.MainText{
+
+  font-size: 25px;
+  padding-left: 1000px;
+}
+
+.SocialMedia{
+
+}
+
+.Iconbar{
+
+}
+
+.ShowcaseVid{
+
+}
+
+.Projects{
+
+}
+
+.AboutTeam{
+
+}
+
+.TeamVid{
+
+}
+
+.Team{
+
+}
+
+.FAQ{
+
+}
+
+.Contact{
+
+}
+
+.Footer{
+
+}
