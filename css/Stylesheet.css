@@ -86,7 +86,7 @@ div#links_div .li {
    width: 70px;
    height: 70px;
    float:left;
-   padding: 50px;
+   padding-left: 50px;
 }
 
 .SocialMedia img {
