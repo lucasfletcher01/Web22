@@ -85,12 +85,12 @@ div#links_div .li {
 .SocialMedia{
    width: 100px;
    height: 100px;
-   padding-left: 40px;
 }
 
 .SocialMedia img {
     width: 100%;
     height: 100%;
+    padding-left: 40px;
 }
 
 .Iconbar{
