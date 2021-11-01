@@ -85,6 +85,7 @@ div#links_div .li {
 .SocialMedia{
    width: 70px;
    height: 70px;
+   float:left;
 }
 
 .SocialMedia img {
