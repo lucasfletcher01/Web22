@@ -51,7 +51,6 @@ nav li {
     display: inline-block;
     height: 100%;
     padding: 25px;
-    margin-right: 80px;
 }
 
 .Links{
@@ -104,15 +103,20 @@ margin-top: 90px;
 text-align: center;
 }
 
+.Showreel{
+margin-top: 90px;
+text-align: center;
+}
+
+.ShowcaseVid{
+margin: 0 auto;
+}
+
 .SocialMedia{
 
 }
 
 .Iconbar{
-
-}
-
-.ShowcaseVid{
 
 }
 
