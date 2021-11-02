@@ -88,12 +88,12 @@ div#links_div .li {
 
 .AboutTeam{
 padding-up: 300px;
-align-content: center;
+text-align: center;
 }
 
 .TeamVid{
 padding-up: 20px;
-align-content: center;
+margin: 0 auto;
 }
 
 .SocialMedia{
