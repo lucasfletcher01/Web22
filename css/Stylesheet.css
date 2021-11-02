@@ -77,13 +77,13 @@ div#links_div .li {
 
   font-size: 28px;
   font-weight: bold;
-  padding-left: 1000px;
+  text-align: center;
 }
 
 .MainText{
 
   font-size: 25px;
-  padding-left: 1000px;
+  text-align: center;
 }
 
 .AboutTeam{
