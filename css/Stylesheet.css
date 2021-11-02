@@ -46,7 +46,7 @@ a:active {
 nav li {
     display: inline-block;
     height: 100%;
-    padding: 25px;
+    padding-right: 25px;
 }
 
 .Links{
