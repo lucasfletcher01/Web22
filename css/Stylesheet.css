@@ -50,7 +50,8 @@ a:active {
 nav li {
     display: inline-block;
     height: 100%;
-    padding-right: 25px;
+    padding: 25px;
+    margin-right: 80px;
 }
 
 .Links{
@@ -84,8 +85,8 @@ div#links_div .li {
 
   font-size: 25px;
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .AboutTeam{
