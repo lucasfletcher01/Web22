@@ -87,11 +87,13 @@ div#links_div .li {
 }
 
 .AboutTeam{
-padding-left: 35px;
+padding-up: 300px;
+align-content: center;
 }
 
 .TeamVid{
-paddingt: 35px;
+padding-up: 20px;
+align-content: center;
 }
 
 .SocialMedia{
