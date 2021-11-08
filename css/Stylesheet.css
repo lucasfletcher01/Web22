@@ -132,6 +132,7 @@ margin: 0 auto;
 }
 
 .Projects{
+grid-row: 1 / span 3;
 margin-top: 90px;
 text-align: center;
 }
