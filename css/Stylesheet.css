@@ -166,5 +166,6 @@ text-align: center;
 
 .Footer{
 margin-top: 30px;
-text-align: right;  
+text-align: right;
+bg-color: dark grey;  
 }
