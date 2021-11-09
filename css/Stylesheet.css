@@ -30,7 +30,8 @@ p1{
 
 .Logo {
   padding: 5px;
-  width: 70px;
+  max-width: 40%;
+  max-height: 40%;
 }
 
 ul{
