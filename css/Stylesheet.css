@@ -31,9 +31,7 @@ p1{
 .Logo {
   padding: 5px;
   max-width: 40%;
-/*   max- */
-  height: auto; 
-/*     40%; */
+  max-height: 40%;
 }
 
 ul{
