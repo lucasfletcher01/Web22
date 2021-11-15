@@ -3,6 +3,7 @@ body{
 
 }
 
+
 h1{
 font-size: 115px;
 font-style: bolder;
@@ -13,26 +14,25 @@ font-size: 35px;
 }
 
 h3{
-
+font-size: 16px;
 }
 
 h4{
 font-size: 14px;
-}
-
-h5{
-font-size: 35px;
+font-weight: normal;
 }
 
 p1{
 
 }
 
+
 .Logo {
   padding: 5px;
 /*   max-width: 40%;
   max-height: 40%; */
 }
+
 
 ul{
   list-style-type: none;
@@ -52,9 +52,11 @@ a:active {
   text-decoration: underline;
 }
 
+
 .Full_Page {
 
 }
+
 
 .Navbar{
 
@@ -72,29 +74,11 @@ nav li {
     padding: 25px;
 }
 
-.Links{
-
-}
-
-div#links_div {
-    float:left;
-    font-size: 30px;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-div#links_div .ul {
-    margin: 0;
-    padding: 0;
-}
-
-div#links_div .li {
-    display: inline;
-}
 
 .Title{
  text-align: center;
 }
+
 
 .Tagline{
 
@@ -103,57 +87,144 @@ div#links_div .li {
   text-align: center;
 }
 
+
 .MainText{
 
   font-size: 25px;
   text-align: center;
   margin-left: 400px;
   margin-right: 400px;
+  margin-bottom: 93px;
 }
 
-.AboutTeam{
+/* .Showreel{
 margin-top: 90px;
-margin-bottom: 15px;
 text-align: center;
-}
-
-.TeamVid{
-margin: 0 auto;
 }
 
 .Event{
 margin-top: 90px;
 text-align: center;
-}
+} */
 
-.Showreel{
-margin-top: 90px;
-text-align: center;
-}
-
-.ShowcaseVid{
-margin: 0 auto;
-}
 
 .Projects{
 grid-row: 1 / span 3;
 margin-top: 90px;
+margin-bottom: 40px;
 text-align: center;
 }
+
+.Projects h2{
+  margin-bottom: 17px;
+}
+
+.Projects h3{
+  margin-top: 10px;
+}
+
+.Projects h4{
+margin-bottom: 12px;
+}
+
+.Projects p{
+margin-bottom: 40px;
+}
+
+
+.AboutTeam{
+margin-top: 90px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.TeamVid{
+
+}
+
+.TeamVid img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+.TeamMembers{
+  margin-top: 90px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.row{
+  margin-bottom: 24px;
+}
+
+.single-team{
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow:2px 2px 15px #000;
+}
+
+.team-img{
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+.team-img img{
+  width: 100%;
+  transition: .3s;
+}
+.single-team:hover .team-img img {
+  transform: scale(1.1);
+}
+.team-content {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  bottom: 0;
+  transition: all .4s;
+  background: MediumPurple;
+  z-index:5;
+}
+.single-team:hover .team-content{
+  height: 150px;
+}
+.team-info {
+  padding: 5px 20px 5px 20px;
+  transition: all .5s;
+}
+.single-team:hover .team-content{
+  background: #000;
+}
+.single-team .team-content .team-info h3 {
+  color: #fff;
+  font-size: 17px;
+  margin: 5px;
+}
+.single-team:hover .team-info h3{
+  color: MediumPurple;
+}
+.team-info p {
+  margin-top: 15px;
+  color: #fff;
+}
+.single-team-text p{
+  margin-top: 5px;
+}
+.team-text {
+  color: #fff;
+  padding: 0 10px 5px;
+}
+
 
 .SocialMedia{
 
 }
 
 .Iconbar{
-
-}
-
-.TeamVid{
-
-}
-
-.Team{
 
 }
 
