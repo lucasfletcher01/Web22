@@ -251,6 +251,7 @@ opacity: 0.6;
 
 .ScrolltoTop:hover {
 opacity: 1.0;
+text-decoration: none;
 }
 
 .Footer {
