@@ -6,7 +6,12 @@
 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2">
+   <div id="navbar-example">
+     <ul class="nav nav-tabs" role="tablist">
+     </ul>
+   </div>
+<a name="top"></a>
 
 <!-- Full Page -->
 <div class="Full_Page">
@@ -15,42 +20,37 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 <!-- Navbar -->
 <div class="Navbar">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <div class="Logo">
-      <img src="Final-Web-22-Logo-scaled-01.svg" width="120px" height= "120px" alt="Logo">
-      </div>
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto order-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#MainText">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Event">Showreel</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Showreel">Event</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#Projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#AboutTeam">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#FAQ">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+  <nav id="#navbar-example2" class="navbar navbar-light bg-light px-3">
+    <div class="Logo">
+    <img id="scrollspyHeading1" src="Final-Web-22-Logo-scaled-01.svg" width="120px" height= "120px" alt="Logo">
     </div>
-  </nav>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#top">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Showreel</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading3">Event</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading4">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading5">Team</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading6">FAQ</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading7">Contact</a>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+</div>
+
 </div>
 
 <br></br>
@@ -80,11 +80,11 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
   <div class="row">
     <div class="col">
       <!-- Showcase Video -->
-      <img src="images/showreel-video-placeholder.png" alt="showreel video">
+      <img id="scrollspyHeading2" src="images/showreel-video-placeholder.png" alt="showreel video">
     </div>
     <div class="col">
       <!-- Event -->
-      <img src="images/event-graphic-placeholder.png" alt="event schedule">
+      <img id="scrollspyHeading3" src="images/event-graphic-placeholder.png" alt="event schedule">
     </div>
     <div class="col">
       <p>Event description goes here</p>
@@ -94,7 +94,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 <!-- Projects -->
 <div class="Projects">
-  <h2>Projects</h2>
+  <h2 id="scrollspyHeading4">Projects</h2>
   <p>Here is a preview of the work you will see from the team at the Web22 event.</p>
 
 <div class="container">
@@ -155,7 +155,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 <!-- About Team -->
 <div class="AboutTeam">
-  <h2>Team Introduction</h2>
+  <h2 id="scrollspyHeading5">Team Introduction</h2>
 </div>
 <div class="TeamVid">
   <img src="images/video-placeholder.PNG" alt="team introduction video">
@@ -524,14 +524,14 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 <div class="Team">
 </div>
 
-<!-- Contact us -->
-<div class="Contact">
-  Contact us
-</div>
-
 <!-- FAQ -->
 <div class="FAQ">
-  FAQ
+  <h2 id="scrollspyHeading6">FAQ</h2>
+</div>
+
+<!-- Contact us -->
+<div class="Contact">
+  <h2 id="scrollspyHeading7">Contact</h2>
 </div>
 
 
