@@ -1,6 +1,7 @@
 
 body{
 position: relative;
+
 }
 
 
@@ -11,6 +12,7 @@ font-style: bolder;
 
 h2{
 font-size: 35px;
+scroll-margin-top: 10rem;
 }
 
 h3{
@@ -32,6 +34,7 @@ p1{
 /*   max-width: 40%;
   max-height: 40%; */
 }
+
 
 
 ul{
@@ -90,6 +93,9 @@ nav li {
     padding: 25px;
 }
 
+img {
+  scroll-margin-top: 12rem;
+}
 
 .Title{
  text-align: center;
@@ -272,7 +278,7 @@ color: (255,255,255,0.6);
 }
 
 .Footer {
-margin-top: 100px;
+margin-top: 60px;
 text-align: right;
 font-size: 22px;
 background-color: lightblue;
