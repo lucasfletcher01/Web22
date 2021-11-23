@@ -249,7 +249,9 @@ text-align: center;
 
 .Contact {
 margin-top: 90px;
-margin-bottom: 40px;
+margin-bottom: 90px;
+margin-left: 90px;
+margin-right: 90px
 text-align: center;
 background-color: #BBF3FF;
 }
