@@ -262,7 +262,7 @@ background-color: grey;
 padding: 15px;
 color: white;
 opacity: 0.6;
-align-content: right;
+float: right;
 text-align: center;
 }
 
