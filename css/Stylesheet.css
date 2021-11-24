@@ -255,6 +255,10 @@ background-color: #BBF3FF;
 padding: 15px;
 }
 
+.ScrollToTopBtn{
+margin-bottom:20px;
+}
+
 .ScrolltoTop {
 bottom: 20px;
 right: 30px;
