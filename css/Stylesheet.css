@@ -292,6 +292,6 @@ text-decoration: none;
 }
 
 .SocialMedia{
-position: relative;
+position: sticky;
 }
 
