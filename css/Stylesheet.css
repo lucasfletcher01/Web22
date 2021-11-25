@@ -294,5 +294,6 @@ text-decoration: none;
 .SocialMedia{
 position: fixed;
 float: left;
+top: 50px;
 }
 
