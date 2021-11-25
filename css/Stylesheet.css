@@ -268,7 +268,7 @@ color: white;
 opacity: 0.6;
 float: right;
 text-align: center;
-postion: fixed;
+position: fixed;
 }
 
 .ScrolltoTop:hover {
@@ -292,6 +292,7 @@ text-decoration: none;
 }
 
 .SocialMedia{
-postion: fixed;
+position: fixed;
+float: left;
 }
 
