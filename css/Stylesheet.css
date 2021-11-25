@@ -8,6 +8,8 @@ position: relative;
 h1{
 font-size: 115px;
 font-style: bolder;
+margin-top: -50px;
+padding-top: 50px;
 }
 
 h2{
@@ -35,8 +37,6 @@ text-decoration: none;
   max-height: 40%; */
 }
 
-
-
 ul{
   list-style-type: none;
   list-style-type:
@@ -58,7 +58,6 @@ a:active {
 .Full_Page {
 
 }
-
 
 .Navbar{
   position: sticky;
@@ -96,6 +95,46 @@ nav li {
 img {
   scroll-margin-top: 12rem;
 }
+
+.gradientarea {
+padding-bottom: 15px;
+}
+
+/* .twp-video-background {
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.twp-video-foreground,
+.twp-video-background video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.twp-video-foreground{
+    padding-bottom: 56.25%;
+    box-sizing: border-box;
+}
+
+.twp-video-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    opacity: 0.5;
+    box-sizing: border-box;
+} */
 
 .Title{
  text-align: center;
@@ -151,6 +190,41 @@ margin-bottom: 12px;
 
 .Projects p{
 margin-bottom: 40px;
+}
+
+.btn h3{
+color: white;
+}
+
+.btn h4{
+color: white;
+}
+
+.btn {
+background-color: #414141;
+padding-top: 12px;
+}
+
+.modal-title{
+
+}
+
+.modal-subheader{
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+
+.px-wide {
+
+}
+
+.modal-body{
+  text-align: left;
 }
 
 
@@ -295,4 +369,3 @@ text-decoration: none;
 position: fixed;
 bottom: 0px;
 }
-
