@@ -96,6 +96,7 @@ img {
   scroll-margin-top: 12rem;
 }
 
+
 .gradientarea {
 padding-bottom: 15px;
 }
@@ -112,42 +113,6 @@ padding-bottom: 15px;
   z-index: -1;
 } */
 
-
-/* .twp-video-background {
-    background: #000;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-.twp-video-foreground,
-.twp-video-background video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    box-sizing: border-box;
-    object-fit: cover;
-}
-
-.twp-video-foreground{
-    padding-bottom: 56.25%;
-    box-sizing: border-box;
-}
-
-.twp-video-layer {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-    opacity: 0.5;
-    box-sizing: border-box;
-} */
 
 .Title{
  text-align: center;
@@ -213,9 +178,16 @@ color: white;
 color: white;
 }
 
-.btn {
+#btn-project {
 background-color: #414141;
 padding-top: 12px;
+}
+
+#btn-video {
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
 }
 
 .modal-title{
@@ -240,6 +212,9 @@ margin: auto;
   text-align: left;
 }
 
+.modal-body-video{
+  text-align: center;
+}
 
 .AboutTeam{
 margin-top: 90px;
