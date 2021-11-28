@@ -5,6 +5,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
+<script src="js/web-script.js"></script>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbar-example2">
    <div id="navbar-example">
@@ -63,16 +64,6 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     <source src="vid/background-gradient.mp4" type="video/mp4">
   </video> -->
 
-
-<!-- <div class="twp-video-background">
-  <div class="twp-video-foreground">
-      <video autoplay muted loop id="myVideo">
-        <source src="vid/background-gradient.mp4" type="video/mp4">
-      </video>
-  </div>
-  <div class="twp-video-layer"></div>
-</div> -->
-
 <!-- Title -->
 <div class="Title">
   <h1>Web22</h1>
@@ -98,8 +89,30 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
   <div class="row">
     <div class="col">
       <!-- Showcase Video -->
-      <iframe width="647" height="379" src="https://www.youtube.com/embed/cTbSbrNHaio"></iframe>
+      <button type="button" class="btn" id="btn-video" data-bs-toggle="modal" data-bs-target="#VideoModal">
+        <img src="images/showreel-video-placeholder.png" alt="showreel video">
+      </button>
+
+      <div class="modal fade" id="VideoModal" tabindex="-1" aria-labelledby="VideoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title-video" id="exampleModalLabel">Showreel Video</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body-video">
+              <iframe width="1140px" height="641.25px" id="VideoModal-1" src="https://www.youtube.com/embed/cTbSbrNHaio" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+
     <div class="col">
       <!-- Event -->
       <img id="scrollspyHeading3" src="images/event-graphic-placeholder.png" alt="event schedule">
@@ -119,7 +132,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
   <div class="row">
     <div class="col">
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
           <h3>Project Title</h3>
           <h4>Student Name</h4>
@@ -181,7 +194,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
     <div class="col">
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
           <h3>Project Title</h3>
           <h4>Student Name</h4>
@@ -244,7 +257,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
     <div class="col">
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
           <h3>Project Title</h3>
           <h4>Student Name</h4>
@@ -307,7 +320,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
   <div class="row">
     <div class="col">
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
           <h3>Project Title</h3>
           <h4>Student Name</h4>
@@ -370,7 +383,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
     <div class="col">
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
           <h3>Project Title</h3>
           <h4>Student Name</h4>
@@ -432,7 +445,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
     <div class="col">
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
           <h3>Project Title</h3>
           <h4>Student Name</h4>
@@ -496,7 +509,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     <div class="row">
       <div class="col">
 
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
             <h3>Project Title</h3>
             <h4>Student Name</h4>
@@ -559,7 +572,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
       <div class="col">
 
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
             <h3>Project Title</h3>
             <h4>Student Name</h4>
@@ -621,7 +634,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
       <div class="col">
 
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
             <h3>Project Title</h3>
             <h4>Student Name</h4>
