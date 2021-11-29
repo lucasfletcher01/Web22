@@ -1,7 +1,6 @@
 
 body{
 position: relative;
-
 }
 
 
@@ -10,6 +9,7 @@ font-size: 115px;
 font-style: bolder;
 margin-top: -50px;
 padding-top: 50px;
+z-index: 2;
 }
 
 h2{
@@ -67,24 +67,23 @@ a:active {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-    color: black;
-    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    background-color: #8074b4;
 }
 
 .nav-link{
-  color: black;
+  color: white;
   font-size: 22px;
   font-weight: bolder;
   text-transform: uppercase;
 }
 
 .nav-link:hover{
-  color: darkgray;
+  color: #fed500;
   font-size: 22px;
   font-weight: bolder;
   text-transform: uppercase;
 }
-
 
 nav li {
     display: inline-block;
@@ -97,21 +96,22 @@ img {
 }
 
 
-.gradientarea {
-padding-bottom: 15px;
+header{
+  position: relative;
+  min-height: 100vh;
 }
 
-/* #background-video {
-  width: 100vw;
-  height: 100vh;
+#background-video {
+  width: 99.1vw;
+  height: 105vh;
   object-fit: cover;
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: -1;
-} */
+}
 
 
 .Title{
