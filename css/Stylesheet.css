@@ -332,6 +332,7 @@ opacity: 0.6;
 float: right;
 text-align: center;
 position: fixed;
+font-size: 20px;
 }
 
 .ScrolltoTop:hover {
