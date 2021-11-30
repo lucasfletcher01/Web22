@@ -27,7 +27,7 @@ font-weight: normal;
 }
 
 p1{
-/* text-decoration: none; */
+text-decoration: none;
 }
 
 
@@ -309,6 +309,18 @@ margin-bottom: 40px;
 text-align: center;
 }
 
+.question {
+background-colour: light-gray;
+color: gray;
+cursor pointer;
+padding 18px;
+width: 100%;
+text-align: left;
+border: none;
+outline: none;
+transition: 0.4s;
+}
+
 .Contact {
 margin-top: 90px;
 margin-bottom: 40px;
@@ -317,47 +329,26 @@ background-color: #BBF3FF;
 padding: 15px;
 }
 
-.submit {
-margin-top: 5px;
-left: 40px;
-right: 40px;
-background-color: #8074b4;
-color: white;
-
-}
-
-.ScrollToTopBtn {
+.ScrollToTopBtn{
 margin-bottom:20px;
 }
 
 .ScrolltoTop {
-bottom: 30px;
-right: 40px;
-background-color: #424242;
-padding: 10px;
+bottom: 20px;
+right: 30px;
+background-color: grey;
+padding: 15px;
 color: white;
 opacity: 0.6;
 float: right;
 text-align: center;
 position: fixed;
-font-size: 23px;
 }
 
 .ScrolltoTop:hover {
 opacity: 1.0;
 text-decoration: none;
 color: (255,255,255,0.6);
-}
-
-.SocialMedia {
-padding: 10px;
-floating: left;
-position: fixed;
-height: 50px;
-background-color: #424242;
-bottom: 200px;
-right: 40px;
-color: white;
 }
 
 .Footer {
@@ -371,6 +362,10 @@ text-decoration: none;
 }
 
 .UniLink {
-  text-decoration: underline;
-  color: #C4C4C4;
+  text-decoration: none;
+}
+
+.SocialMedia{
+position: fixed;
+bottom: 500px;
 }
