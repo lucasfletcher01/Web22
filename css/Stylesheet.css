@@ -314,11 +314,22 @@ background-colour: light-gray;
 color: gray;
 cursor pointer;
 padding 18px;
-width: 100%;
+width: 50%;
 text-align: left;
 border: none;
 outline: none;
 transition: 0.4s;
+}
+
+.question:hover {
+background-colour: black;
+}
+
+.answer {
+padding: 0 18px;
+background-colour: white;
+display: none;
+overflow: hidden;
 }
 
 .Contact {
