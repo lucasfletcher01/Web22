@@ -317,7 +317,12 @@ background-color: #BBF3FF;
 padding: 15px;
 }
 
-.ScrollToTopBtn{
+#submit {
+margin-top: 5px;
+
+}
+
+.ScrollToTopBtn {
 margin-bottom:20px;
 }
 
@@ -355,6 +360,6 @@ text-decoration: none;
   color: #C4C4C4;
 }
 
-.SocialMedia{
+.SocialMedia {
 padding:10px;
 }
