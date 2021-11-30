@@ -362,4 +362,6 @@ text-decoration: none;
 
 .SocialMedia {
 padding:10px;
+floating: left;
+position: fixed;
 }
