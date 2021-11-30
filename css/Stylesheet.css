@@ -85,6 +85,13 @@ a:active {
   text-transform: uppercase;
 }
 
+.nav-link:active{
+  color: #96F3FF;
+  font-size: 22px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 nav li {
     display: inline-block;
     height: 100%;
@@ -314,7 +321,7 @@ margin-top: 90px;
 margin-bottom: 40px;
 text-align: center;
 background-color: #BBF3FF;
-/* padding: 15px; */
+padding: 15px;
 right: 30px;
 }
 
@@ -355,7 +362,8 @@ text-decoration: none;
 }
 
 .SocialMedia{
-position: relative;
-float: right;
+position: fixed;
+bottom: 300px;
+float: left;
 padding: 10px;
 }
