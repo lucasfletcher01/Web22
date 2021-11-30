@@ -345,6 +345,14 @@ text-decoration: none;
 color: (255,255,255,0.6);
 }
 
+.SocialMedia {
+padding:10px;
+floating: left;
+position: fixed;
+height: 50px;
+background-color: #424242;
+}
+
 .Footer {
 /* margin-top: 100px; */
 text-align: right;
@@ -358,11 +366,4 @@ text-decoration: none;
 .UniLink {
   text-decoration: underline;
   color: #C4C4C4;
-}
-
-.SocialMedia {
-padding:10px;
-floating: left;
-position: fixed;
-height: 50px;
 }
