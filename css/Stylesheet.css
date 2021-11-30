@@ -355,8 +355,7 @@ text-decoration: none;
 }
 
 .SocialMedia{
-position: fixed;
-bottom: 300px;
-float: left;
+position: relative;
+float: right;
 padding: 10px;
 }
