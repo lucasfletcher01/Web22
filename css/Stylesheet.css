@@ -351,6 +351,7 @@ floating: left;
 position: fixed;
 height: 50px;
 background-color: #424242;
+bottom: 450px;
 }
 
 .Footer {
