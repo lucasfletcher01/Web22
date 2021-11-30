@@ -319,9 +319,9 @@ padding: 15px;
 
 .submit {
 margin-top: 5px;
-left: 15px;
-right: 15px;
-background-color: green;
+left: 40px;
+right: 40px;
+background-color: light-green;
 
 }
 
@@ -354,7 +354,9 @@ floating: left;
 position: fixed;
 height: 50px;
 background-color: #424242;
-bottom: 400px;
+bottom: 200px;
+right: 400px;
+text-color: white;
 }
 
 .Footer {
