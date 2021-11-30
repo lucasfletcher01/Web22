@@ -353,7 +353,7 @@ text-decoration: none;
 }
 
 .UniLink {
-  text-decoration: none;
+  text-decoration: underline;
   color: #C4C4C4;
 }
 
