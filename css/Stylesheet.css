@@ -309,7 +309,8 @@ margin-bottom: 40px;
 text-align: center;
 }
 
-.question {
+/* question */
+.accordion-button {
 background-colour: light-gray;
 color: gray;
 cursor pointer;
@@ -321,15 +322,11 @@ outline: none;
 transition: 0.4s;
 }
 
-.question:hover {
-background-colour: black;
-}
-
-.answer {
-padding: 0 18px;
+/* answer */
+.accordion-body {
+padding: 18px;
 background-colour: white;
-display: none;
-overflow: hidden;
+width: 50%;
 }
 
 .Contact {
