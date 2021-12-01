@@ -344,7 +344,7 @@ margin-bottom:20px;
 .ScrolltoTop {
 bottom: 20px;
 right: 30px;
-background-color: grey;
+background-color: gray;
 padding: 15px;
 color: white;
 opacity: 0.6;
@@ -376,4 +376,5 @@ text-decoration: none;
 .SocialMedia{
 position: fixed;
 bottom: 500px;
+background-color: dark-gray;
 }
