@@ -308,7 +308,6 @@ margin-top: 90px;
 margin-bottom: 40px;
 text-align: center;
 width: 50%;
-align-content: center;
 }
 
 /* question */
@@ -317,11 +316,12 @@ background-colour: light-gray;
 color: gray;
 cursor pointer;
 padding 18px;
-/* width: 50%; */
+width: 50%;
 text-align: left;
 border: none;
 outline: none;
 transition: 0.4s;
+align-content: center;
 }
 
 /* answer */
