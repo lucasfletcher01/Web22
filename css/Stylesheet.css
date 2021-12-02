@@ -311,6 +311,10 @@ width: 50%;
 align-content: center;
 }
 
+.accordion-item {
+align-content: center;
+}
+  
 /* question */
 .accordion-button {
 background-colour: light-gray;
