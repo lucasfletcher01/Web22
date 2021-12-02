@@ -378,6 +378,5 @@ text-decoration: none;
 position: fixed;
 bottom: 500px;
 background-color: dark-gray;
-bottom: 20px;
-right: 30px;  
+padding: 10px;
 }
