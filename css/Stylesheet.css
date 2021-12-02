@@ -321,7 +321,7 @@ background-colour: light-gray;
 color: gray;
 cursor pointer;
 padding 18px;
-text-align: left;
+/* text-align: left; */
 border: none;
 outline: none;
 transition: 0.4s;
