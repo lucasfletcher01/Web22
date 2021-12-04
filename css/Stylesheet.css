@@ -312,11 +312,7 @@ align-content: center;
 margin: auto;
 }
 
-.accordion-header {
-colour: purple;
-}
-
-.accordion-collapse {
+.accordion-collapse:show {
 colour: yellow;
 }
 
