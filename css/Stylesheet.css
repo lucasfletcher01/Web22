@@ -316,6 +316,11 @@ margin: auto;
 colour: purple;
 }
 
+.accordion-collapse {
+colour: blue;
+}
+
+
 .accordion-button {
 background-colour: light-gray;
 color: gray;
@@ -326,7 +331,6 @@ border: none;
 outline: none;
 transition: 0.4s;
 }
-
 
 .accordion-body {
 padding: 18px;
