@@ -338,13 +338,13 @@ margin-bottom: 40px;
 text-align: center;
 background-color: #BBF3FF;
 padding: 15px;
-float: right;
+/* float: right; */
 }
 
 .Newsletter {
 float: left;
-/* width: 200px;
-height: 400px; */
+width: 200px;
+height: 400px;
 }
 
 .ScrollToTopBtn{
