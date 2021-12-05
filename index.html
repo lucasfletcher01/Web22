@@ -710,6 +710,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 
       <div class="col-md-3">
+        <button type="button" class="btn" id="btn-team" data-bs-toggle="modal" data-bs-target="#TeamModal">
         <div class="single-team">
           <div class="team-img">
             <img src="images/team-member-placeholder.png" alt="member" class="img-responsive">
@@ -722,7 +723,42 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             <p class="team-text">About</p>
           </div>
         </div>
+        </button>
       </div>
+
+      <div class="modal fade" id="TeamModal" tabindex="-1" aria-labelledby="TeamModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title-team" id="exampleModalLabel">Student Name</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-subheader-team">Job Role
+            </div>
+
+            <div class="member-info">
+            <div class="member-img">
+            <img src="images/team-member-placeholder.png" width="317px" height="394px" alt="member">
+            </div>
+            <div class="modal-body-team">
+              <h5>About</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+              <h5>Skills</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Social Media Links</p>
+            </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
 
       <div class="col-md-3">
@@ -1050,9 +1086,9 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 <!-- FAQ -->
 <div class="FAQ">
-   
+
  <h2 id="scrollspyHeading6">Frequently Asked Questions</h2><br>
-   
+
   <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
@@ -1091,7 +1127,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     </div>
   </div>
 </div>
-   
+
 </div>
 
 <!-- Contact us -->
@@ -1120,19 +1156,19 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
      <br>
      <input type="submit" value="Submit">
    </form>
-  
+
 
 <!-- Newsletter -->
  <div class="Newsletter">
     <h2>Sign up to our newsletter</h2>
     <p>text</p>
-    
+
     <form>
        <label for="email">Email:</label><br>
      <input type="text" id="email" name="email">
      <br>
        <input type="submit" id="signup" name="signup" value="Sign up">
-     <br>   
+     <br>
    </div>
 </div>
 
@@ -1152,8 +1188,8 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
    <img src="icons/facebook.png" alt="Facebook"><br>
    <img src="icons/instagram.png" alt="Instagram"><br>
    <img src="icons/linkedin.png" alt="Linkedin"><br>
-</div>   
-   
+</div>
+
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
