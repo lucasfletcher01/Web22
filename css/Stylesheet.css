@@ -332,12 +332,13 @@ padding: 18px;
 background-colour: white;
 }
 
-/* .Contact {
+.Contact {
 margin-top: 90px;
 margin-bottom: 40px;
 text-align: center;
 background-color: #BBF3FF;
 padding: 15px;
+postition: relative;
 }
 
 .Newsletter {
@@ -349,25 +350,8 @@ height: 400px;
 .ContactForm {
 width: 600px;
 height: 400px;
-margin-left 200px;  
-} */
-
-
-.Contact {
-width: 800px;
-margin: 0 auto;
-}
-
-.Newsletter {
-float: left;
-width: 200px;
-height: 400px;
-}
-
-.ContactForm {
-width: 600px;
-height: 400px;
-margin-left 200px;  
+margin-left 200px;
+position: absolute;
 }
 
 
