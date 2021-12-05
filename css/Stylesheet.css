@@ -380,8 +380,8 @@ text-decoration: none;
 .SocialMedia{
 position: fixed;
 bottom: 500px;
+top: 500px;
 background-color: gray;
 padding: 15px 0;
 float: left;
-vertical-align: top;
 }
