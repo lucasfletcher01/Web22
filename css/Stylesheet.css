@@ -316,7 +316,6 @@ margin: auto;
 colour: yellow;
 }
 
-
 .accordion-button {
 background-colour: light-gray;
 color: gray;
@@ -341,13 +340,17 @@ background-color: #BBF3FF;
 padding: 15px;
 }
 
-
 .Newsletter {
 float: left;
 width: 200px;
 height: 400px;
 }
 
+.ContactForm {
+width: 600px;
+height: 400px;
+margin-left 200px;  
+}
 
 .ScrollToTopBtn{
 margin-bottom:20px;
