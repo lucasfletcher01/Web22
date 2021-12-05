@@ -343,8 +343,8 @@ postition: relative;
 
 .Newsletter {
 float: left;
-width: 200px;
-height: 400px;
+/* width: 200px;
+height: 400px; */
 }
 
 .ScrollToTopBtn{
