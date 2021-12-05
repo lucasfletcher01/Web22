@@ -341,9 +341,9 @@ padding: 15px;
 }
 
 .Newsletter {
-float: left;
+/* float: left;
 width: 200px;
-height: 400px;
+height: 400px; */
 }
 
 .ScrollToTopBtn{
