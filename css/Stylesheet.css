@@ -61,10 +61,10 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+
 }
 a:active {
-  text-decoration: underline;
+
 }
 
 .Full_Page {
@@ -91,7 +91,7 @@ a:active {
 }
 
 .nav-link:hover{
-  color: #fed500;
+  color: #ffe86f;
   font-size: 22px;
   font-weight: bolder;
   text-transform: uppercase;
@@ -193,6 +193,7 @@ color: white;
 #btn-project {
 background-color: #414141;
 padding-top: 12px;
+box-shadow:2px 2px 15px #000;
 }
 
 #btn-video {
@@ -200,6 +201,7 @@ padding-top: 0px;
 padding-bottom: 0px;
 padding-left: 0px;
 padding-right: 0px;
+box-shadow:2px 2px 15px #000;
 }
 
 #btn-team {
@@ -358,7 +360,7 @@ text-align: center;
 }
 
 .FAQ {
-margin-top: 90px;
+padding-top: 107px;
 margin-bottom: 40px;
 text-align: center;
 width: 75%;
