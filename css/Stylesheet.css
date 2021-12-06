@@ -28,6 +28,7 @@ font-weight: normal;
 
 h5{
 font-size: 24px;
+padding-bottom: 10px;
 }
 
 p1{
@@ -42,8 +43,15 @@ text-decoration: none;
 }
 
 ul{
-  list-style-type: none;
-  list-style-type:
+  display: inline-block;
+  list-style-type: disc;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+li {
+    display: list-item;
 }
 
 a:link {
@@ -252,6 +260,14 @@ margin: auto;
 .member-info {
     display: flex;
     align-items:center;
+}
+
+#skills li {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  margin-right: 60px;
+  padding-bottom: 8px;
 }
 
 .AboutTeam{
