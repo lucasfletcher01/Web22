@@ -385,6 +385,10 @@ float: left;
 height: 400px; */
 }
 
+.Contact + .Newsletter {
+colour: red;
+}
+
 .ScrollToTopBtn{
 margin-bottom:20px;
 }
