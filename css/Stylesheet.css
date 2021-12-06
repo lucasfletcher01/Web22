@@ -376,17 +376,17 @@ margin-bottom: 40px;
 text-align: center;
 background-color: #BBF3FF;
 padding: 15px;
-float: right;
 }
 
 .Newsletter {
-float: left;
 /*width: 200px;
 height: 400px; */
 }
 
 .Contact + .Newsletter {
-colour: red;
+float: left;
+display: inline;
+width: 50%;
 }
 
 .ScrollToTopBtn{
