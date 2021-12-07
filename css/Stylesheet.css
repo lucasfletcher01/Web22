@@ -409,6 +409,7 @@ width: 50%;
 float: right;
 background-color: #BBF3FF;
 text-align: center;
+padding: 15px;
 }
 
 .ScrollToTopBtn{
@@ -435,6 +436,7 @@ color: (255,255,255,0.6);
 
 .Footer {
 margin-top: 100px;
+padding: 20px;
 height: 100px;
 text-align: right;
 font-size: 15px;
