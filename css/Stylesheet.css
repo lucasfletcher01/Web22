@@ -392,6 +392,7 @@ background-color: #BBF3FF;
 padding: 15px;
 width: 25%;
 float: left;
+z-index: 11;
 }
 
 .Newsletter {
@@ -403,6 +404,7 @@ background-color: #FED500;
 padding: 15px;  
 width: 25%;
 float: right;
+z-index: 11;
 }
 
 .ScrollToTopBtn{
@@ -440,6 +442,7 @@ text-decoration: none;
 bottom: 0px;
 float: none;
 position: static;
+z-index: 12;
 }
 
 .UniLink {
