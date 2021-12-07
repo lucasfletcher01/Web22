@@ -389,8 +389,8 @@ background-colour: white;
 }
 
 .Contact {
-/* margin-top: 90px;
-margin-bottom: 40px; */
+margin-top: 90px;
+margin-bottom: 40px;
 text-align: center;
 background-color: #BBF3FF;
 padding: 15px;
@@ -401,14 +401,13 @@ float: left;
 .Newsletter {
 /*width: 200px;
 height: 400px; */
+margin-top: 90px;
+margin-bottom: 40px;
 width: 50%;
 float: right;
 background-color: yellow;  
 }
 
-/* .Contact + .Newsletter {
-display: inline;
-} */
 
 .ScrollToTopBtn{
 margin-bottom:20px;
