@@ -386,10 +386,10 @@ padding: 18px;
 .Contact {
 height: 300px;
 margin-top: 90px;
-margin-bottom: 100px;
+margin-bottom: 40px;
 text-align: center;
 background-color: #BBF3FF;
-padding: 15px;
+padding: 150px;
 width: 50%;
 float: left;
 }
@@ -397,12 +397,12 @@ float: left;
 .Newsletter {
 height: 300px;
 margin-top: 90px;
-margin-bottom: 100px;
+margin-bottom: 40px;
 width: 50%;
 float: right;
 background-color: #FED500;
 text-align: center;
-padding: 15px;
+padding: 150px;
 }
 
 .ScrollToTopBtn{
