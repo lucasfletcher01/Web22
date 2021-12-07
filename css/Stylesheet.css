@@ -392,7 +392,6 @@ background-color: #BBF3FF;
 padding: 15px;
 width: 25%;
 float: left;
-position: static;
 }
 
 .Newsletter {
@@ -404,7 +403,6 @@ background-color: #FED500;
 padding: 15px;  
 width: 25%;
 float: right;
-position: static;
 }
 
 .ScrollToTopBtn{
@@ -440,7 +438,7 @@ font-size: 15px;
 color: #C4C4C4;
 background-color: #424242;;
 text-decoration: none;
-bottom: 20px;
+bottom: 0px;
 float: none;
 position: static;
 }
