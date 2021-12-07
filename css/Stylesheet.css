@@ -386,7 +386,7 @@ padding: 18px;
 .Contact {
 height: 300px;
 margin-top: 90px;
-margin-bottom: 40px;
+/* margin-bottom: 40px; */
 text-align: center;
 background-color: #BBF3FF;
 padding: 15px;
@@ -397,7 +397,7 @@ float: left;
 .Newsletter {
 height: 300px;
 margin-top: 90px;
-margin-bottom: 40px;
+/* margin-bottom: 40px; */
 text-align: center;
 background-color: #FED500;  
 padding: 15px;  
@@ -437,7 +437,6 @@ font-size: 15px;
 color: #C4C4C4;
 background-color: #414141;
 text-decoration: none;
-bottom: 0px;
 /* position: static; */
 }
 
