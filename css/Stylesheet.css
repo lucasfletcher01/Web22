@@ -369,8 +369,8 @@ margin: auto;
 }
 
 .accordion-button {
-background-color: light-gray;
-color: gray;
+/* background-color: light-gray;
+color: gray; */
 cursor pointer;
 padding 18px;
 text-align: left;
@@ -381,7 +381,6 @@ transition: 0.4s;
 
 .accordion-body {
 padding: 18px;
-background-color: white;
 }
 
 .Contact {
