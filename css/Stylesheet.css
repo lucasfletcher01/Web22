@@ -395,18 +395,19 @@ text-align: center;
 background-color: #BBF3FF;
 padding: 15px;
 width: 50%;
+float: left;
 }
 
 .Newsletter {
 /*width: 200px;
 height: 400px; */
+width: 50%;
+float: right;
 }
 
-.Contact + .Newsletter {
-float: left;
+/* .Contact + .Newsletter {
 display: inline;
-width: 50%;
-}
+} */
 
 .ScrollToTopBtn{
 margin-bottom:20px;
