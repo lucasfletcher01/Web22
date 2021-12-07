@@ -403,6 +403,7 @@ float: left;
 height: 400px; */
 width: 50%;
 float: right;
+background-color: yellow;  
 }
 
 /* .Contact + .Newsletter {
