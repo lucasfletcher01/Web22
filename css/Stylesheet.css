@@ -390,7 +390,7 @@ margin-bottom: 40px;
 text-align: center;
 background-color: #BBF3FF;
 padding: 150px;
-width: 50%;
+width: 25%;
 float: left;
 }
 
@@ -398,11 +398,11 @@ float: left;
 height: 300px;
 margin-top: 90px;
 margin-bottom: 40px;
-width: 50%;
-float: right;
-background-color: #FED500;
 text-align: center;
-padding: 150px;
+background-color: #FED500;  
+padding: 150px;  
+width: 25%;
+float: right;
 }
 
 .ScrollToTopBtn{
