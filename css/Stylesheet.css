@@ -402,7 +402,7 @@ text-align: center;
 background-color: #FED500;  
 padding: 15px;  
 width: 25%;
-float: right;
+/* float: right; */
 }
 
 .ScrollToTopBtn{
