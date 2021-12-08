@@ -383,6 +383,10 @@ transition: 0.4s;
 padding: 18px;
 }
 
+.ContactUs {
+display: block;
+}
+
 .Contact {
 height: 300px;
 margin-top: 90px;
@@ -391,7 +395,6 @@ text-align: center;
 background-color: #BBF3FF;
 padding: 15px;
 width: 25%;
-display: block;
 /* float: left; */
 }
 
