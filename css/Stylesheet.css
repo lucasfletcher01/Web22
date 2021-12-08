@@ -391,7 +391,7 @@ text-align: center;
 background-color: #BBF3FF;
 padding: 15px;
 width: 25%;
-float: left;
+/* float: left; */
 }
 
 .Newsletter {
