@@ -391,6 +391,7 @@ text-align: center;
 background-color: #BBF3FF;
 padding: 15px;
 width: 25%;
+display: block;
 /* float: left; */
 }
 
