@@ -6,6 +6,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
+<script src="js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 <script src="js/web-script.js"></script>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbar-example2">
@@ -97,7 +99,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             </div>
 
             <div class="modal-body-video">
-              <iframe width="1140px" height="641.25px" id="VideoModal-1" src="https://www.youtube.com/embed/cTbSbrNHaio" allowfullscreen></iframe>
+              <iframe id="ytplayer" width="1140px" height="641.25px" id="VideoModal-1" src="https://www.youtube.com/embed/cTbSbrNHaio?rel=0&wmode=Opaque&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
