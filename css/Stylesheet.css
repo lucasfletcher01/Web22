@@ -87,6 +87,7 @@ a:active {
   font-size: 22px;
   font-weight: bolder;
   text-transform: uppercase;
+  text-shadow:1px 1px 2px #000;
 }
 
 .nav-link:hover{
@@ -164,6 +165,8 @@ text-align: center;
 .Projects h2{
   padding-top: 100px;
   margin-bottom: 17px;
+  color: white;
+  text-shadow:1px 1px 2px #000;
 }
 
 .Projects h3{
@@ -176,6 +179,8 @@ margin-bottom: 12px;
 
 .Projects p{
 margin-bottom: 40px;
+color: white;
+text-shadow:1px 1px 2px #000;
 }
 
 .btn h3{
@@ -312,7 +317,8 @@ text-align: center;
 }
 
 .TeamMembers h2{
-
+  color: white;
+  text-shadow:1px 1px 2px #000;
 }
 
 .row{
@@ -457,14 +463,14 @@ color: (255,255,255,0.6);
   position: relative;
   height: 150px;
   margin-top: -200px;
- 
+
   width: 100%;
   text-align: right;
   font-size: 15px;
   color: #C4C4C4;
   background-color: #414141;
   text-decoration: none;
-    
+
 }
 
 .UniLink {
