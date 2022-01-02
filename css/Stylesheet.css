@@ -115,7 +115,7 @@ header{
 
 #background-video {
   width: 99.1vw;
-  height: 105vh;
+  height: 110vh;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -148,6 +148,11 @@ header{
   margin-bottom: 93px;
 }
 
+.project-area{
+  padding-bottom: 90px;
+  background-color: #8d80c9;
+
+}
 
 .Projects{
 grid-row: 1 / span 3;
@@ -157,6 +162,7 @@ text-align: center;
 }
 
 .Projects h2{
+  padding-top: 100px;
   margin-bottom: 17px;
 }
 
@@ -284,6 +290,11 @@ margin-bottom: 40px;
 text-align: center;
 }
 
+.team-area{
+  padding-bottom: 90px;
+  background-color: #a596eb;
+}
+
 .TeamVid{
 
 }
@@ -298,6 +309,10 @@ text-align: center;
   margin-top: 90px;
   margin-bottom: 40px;
   text-align: center;
+}
+
+.TeamMembers h2{
+
 }
 
 .row{
@@ -332,7 +347,7 @@ text-align: center;
   overflow: hidden;
   bottom: 0;
   transition: all .4s;
-  background: MediumPurple;
+  background: #96F3FF;
   z-index:5;
 }
 .single-team:hover .team-content{
@@ -346,15 +361,18 @@ text-align: center;
   background: #000;
 }
 .single-team .team-content .team-info h3 {
-  color: #fff;
+  color: black;
   font-size: 17px;
   margin: 5px;
 }
 .single-team:hover .team-info h3{
-  color: MediumPurple;
+  color: #96F3FF;
 }
 .team-info p {
   margin-top: 15px;
+  color: black;
+}
+.single-team:hover .team-info p{
   color: #fff;
 }
 .single-team-text p{
