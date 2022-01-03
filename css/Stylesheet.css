@@ -147,12 +147,9 @@ header{
 .MainText{
   font-size: 25px;
   text-align: center;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
   margin-bottom: 93px;
-  
-/*   margin-left: 200px;
-  margin-right: 200px; */
 }
 
 .project-area{
