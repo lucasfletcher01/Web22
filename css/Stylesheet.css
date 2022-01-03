@@ -119,7 +119,8 @@ header{
 }
 
 #background-video {
-  width: 99.1vw;
+/*   width: 99.1vw; */
+  width: 100%;
   height: 110vh;
   object-fit: cover;
   position: absolute;
