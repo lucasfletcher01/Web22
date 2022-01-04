@@ -3,6 +3,7 @@ position: relative;
 
 }
 
+
 h1{
 font-size: 115px;
 font-style: bolder;
@@ -119,8 +120,7 @@ header{
 }
 
 #background-video {
-/*   width: 99.1vw; */
-  width: 100%;
+  width: 99.1vw;
   height: 110vh;
   object-fit: cover;
   position: absolute;
@@ -145,12 +145,12 @@ header{
 
 
 .MainText{
+
   font-size: 25px;
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
   margin-bottom: 93px;
-  height: 110vh;
 }
 
 .project-area{
@@ -319,14 +319,15 @@ text-align: center;
 
 
 .TeamMembers{
-  margin-top: 90px;
-  margin-bottom: 40px;
+  padding-top: 90px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
 .TeamMembers h2{
   color: white;
   text-shadow:1px 1px 2px #000;
+  margin-bottom: 40px;
 }
 
 .row{
