@@ -121,7 +121,7 @@ header{
 
 #background-video {
   width: 99.1vw;
-  height: 113vh;
+  height: 108vh;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -161,7 +161,7 @@ header{
 
 .Projects{
 grid-row: 1 / span 3;
-margin-top: 90px;
+margin-top: 75px;
 margin-bottom: 40px;
 text-align: center;
 }
@@ -501,22 +501,3 @@ padding: 15px 0;
 float: left;
 margin-top: 100px;
 }
-
-
-/* @media only screen and (max-width: 390px) {
-
-.Title h1{
-  font-size: 60px;
-  font-style: bolder;
-  margin-top: -50px;
-  padding-top: 50px;
-  z-index: 2;
-  }
-
-  .Tagline{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-} */
