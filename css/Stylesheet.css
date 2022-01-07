@@ -121,7 +121,7 @@ header{
 
 #background-video {
   width: 99.1vw;
-  height: 108vh;
+  height: 105vh;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -161,13 +161,13 @@ header{
 
 .Projects{
 grid-row: 1 / span 3;
-margin-top: 75px;
+margin-top: 46px;
 margin-bottom: 40px;
 text-align: center;
 }
 
 .Projects h2{
-  padding-top: 100px;
+  padding-top: 75px;
   margin-bottom: 17px;
   color: white;
   text-shadow:1px 1px 2px #000;
