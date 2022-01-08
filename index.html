@@ -1,3 +1,18 @@
+<?php
+if(isset($_POST['submit']))
+{
+$to = "u1975239@unimail.hud.ac.uk";
+$from = $_POST['email'];
+$name = $_POST['name'];
+$message = $_POST['message'];
+  
+$headers = "From:" . $from;
+$headers2 = "From:" . $to;
+mail($to,$message,$headers);
+echo "Email sent, thank you";
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -1871,8 +1886,8 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 <div class="Contact">
    <h2 id="contact">Contact Us</h2>
 
-  <form method="post" name="contactus" action="contactus-processor.php">
-     <label for="name">Namee:</label>
+  <form action="" method="post">
+     <label for="name">Name0:</label>
      <br>
      <input type="text" id="name" name="name">
      <br>
@@ -1890,7 +1905,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
                style"height: 400px;">
         </textarea>
      <br>
-     <input type="submit" value="Submit">
+     <input type="submit" value="Submit" name="submit">
    </form>
 </div>
 
