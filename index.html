@@ -1869,28 +1869,13 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 <!-- Contact us -->
 
-
-<?php
-if(isset($_POST['submit']))
-{
-$to = "u1975239@unimail.hud.ac.uk";
-$from = $_POST['email'];
-$name = $_POST['name'];
-$message = $_POST['message'];
-  
-$headers = "From:" . $from;
-$headers2 = "From:" . $to;
-mail($to,$message,$headers);
-echo "Email sent, thank you";
-}
-?>
-
-
-
+ 
+<script src="js/contactform.js>            
+             
 <div class="Contact">
    <h2 id="contact">Contact Us</h2>
 
-  <form action="" method="post">
+  <form action="contactform.php" method="POST">
      <label for="name">Name:</label>
      <br>
      <input type="text" id="name" name="name">
@@ -1911,6 +1896,9 @@ echo "Email sent, thank you";
      <br>
      <input type="submit" value="Submit" name="submit">
    </form>
+  
+   </script>
+   
 </div>
 
  <div class="Newsletter">
