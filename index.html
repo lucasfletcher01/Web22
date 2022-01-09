@@ -1915,6 +1915,20 @@ mail($to, $email_subject, $email_body, $headers);
    
 </div>
 
+<? php
+$email = $_POST['email'];
+
+$email_from = 'webshowcase@hud.ac.uk'
+$email_subject = "Newsletter signup";
+$email_body = "This user would like to signup for the newsletter.";
+
+mail(to, subject, headers)
+
+$to = "webshowcase@hud.ac.uk";
+$headers = "From: $email_from \r\n";
+mail($to, $email_subject, $email_body, $headers);
+?>
+
  <div class="Newsletter">
     <h2>Sign up to our newsletter</h2>
     <br>
