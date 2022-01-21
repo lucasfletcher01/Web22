@@ -2,10 +2,11 @@
 <html>
 <head>
 <title>Web22</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
+<link rel="stylesheet" type="text/css" href="css/Stylesheet-desktop.css" media="screen and (min-width: 401px)">
+<link rel="stylesheet" type="text/css" href="css/Stylesheet.css" media="screen and (max-width: 400px)">
 <script src="js/jquery-3.6.0.js"></script>
 <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 <script src="js/web-script.js"></script>
@@ -24,13 +25,14 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 <!-- Navbar -->
 <div class="Navbar">
-  <nav id="#navbar-example2" class="navbar navbar-dark" style="background-color: #8074b4;">
+
+  <!-- <nav id="#navbar-example2" class="navbar navbar-expand-lg navbar-dark" style="background-color: #8074b4;">
     <div class="Logo">
     <a href="#top">
     <img id="scrollspyHeading1" src="Final-Web-22-Logo-scaled-01.svg" width="120px" height= "120px" alt="Logo">
     </a>
     </div>
-  <ul class="nav nav-pills">
+  <ul class="nav nav-pills ms-auto">
     <li class="nav-item">
       <a class="nav-link" href="#top">About</a>
     </li>
@@ -47,6 +49,72 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
       <a class="nav-link" href="#contact">Contact</a>
     </li>
   </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+</div> -->
+<!-- Navbar -->
+
+<!-- <nav id="#navbar-example2" class="navbar navbar-expand-lg navbar-dark" style="background-color: #8074b4;">
+  <div class="Logo">
+  <a href="#top">
+  <img id="scrollspyHeading1" src="Final-Web-22-Logo-scaled-01.svg" width="120px" height= "120px" alt="Logo">
+  </a>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" aria-current="page" href="top">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#event">Event</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#team">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div> -->
+
+<nav id="#navbar-example2" class="navbar navbar-expand-lg" style="background-color: #8074b4;">
+  <div class="container-fluid">
+    <div class="Logo">
+    <a href="#top">
+    <img id="scrollspyHeading1" src="Final-Web-22-Logo-scaled-01.svg" width="120px" height= "120px" alt="Logo">
+    </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#top">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#event">Event</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 </div>
@@ -83,11 +151,11 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 </div>
 
 <div class="container">
-  <div class="row">
+  <div class="flex-grid-thirds">
     <div class="col">
       <!-- Showcase Video -->
       <button type="button" class="btn" id="btn-video" data-bs-toggle="modal" data-bs-target="#VideoModal">
-        <img id="showreel" src="images/showreel-video-placeholder.png" width="632px" height="370px" alt="showreel video">
+        <img id="showreel" src="images/play-btn.PNG" width="632px" height="370px" alt="showreel video">
       </button>
 
       <div class="modal fade" id="VideoModal" tabindex="-1" aria-labelledby="VideoModalLabel" aria-hidden="true">
@@ -99,7 +167,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             </div>
 
             <div class="modal-body-video">
-              <iframe id="ytplayer" width="1140px" height="641.25px" id="VideoModal-1" src="https://www.youtube.com/embed/cTbSbrNHaio?rel=0&wmode=Opaque&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+              <iframe id="ytplayer" width="1140px" height="641.25px" id="VideoModal-1" src="https://www.youtube.com/embed/9UXZuxkoENg?rel=0&wmode=Opaque&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -111,7 +179,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     </div>
 
     <div class="col">
-      <!-- Showcase Video -->
+      <!-- Event Graphic -->
       <button type="button" class="btn" id="btn-event" data-bs-toggle="modal" data-bs-target="#EventModal">
         <img id="event" src="images/Inforlandscape(latestversion2)-01.svg" width="632px" height="370px" alt="event schedule">
       </button>
@@ -145,9 +213,11 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
   <h2 id="projects">Projects</h2>
   <h6>Here is a preview of the work you will see from the team at the Web22 event.</h6>
 
-<div class="container">
-  <div class="row">
+<div id="projects-container" class="container">
+  <!-- <div class="row"> -->
+    <div class="flex-grid">
     <div class="col">
+      <!-- "col-lg-4 col-md-4 col-sm-6 col-xs-6" -->
 
         <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#ProjectModal1">
           <img src="project-images/fletcher-films1.jpg" width="380px" height= "217px" alt="fletcher films">
@@ -155,6 +225,8 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
           <h4>Lucas Fletcher</h4>
         </button>
 
+    <div class="container">
+      <div class="col">
         <div class="modal fade" id="ProjectModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -189,7 +261,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 
               <div class="modal-body">
-                <p>Advertisement video produced and edited in Adobe Premier Pro and After Effects.
+                <p>Advertisement video produced and edited in Adobe Premiere Pro and After Effects.
                   This project uses a combination of stock footage and original assets and demonstrates
                   a scenario where a user utilises the app to book a cinema ticket. The finished video uses
                   various effects involving green screen and the mask tool to insert video inside of a
@@ -202,6 +274,8 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
     </div>
 
@@ -323,7 +397,9 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
     </div>
   </div>
-  <div class="row">
+  <!-- </div> -->
+  <!-- <div class="row"> -->
+  <div class="flex-grid">
     <div class="col">
 
         <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#ProjectModal4">
@@ -390,38 +466,38 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     <div class="col">
 
         <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#ProjectModal5">
-          <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
-          <h3>Project Title</h3>
-          <h4>Student Name</h4>
+          <img src="project-images/earfun5.PNG" width="380px" height= "217px" alt="project">
+          <h3>Earfun Website Revamp</h3>
+          <h4>Oli Lennox</h4>
         </button>
 
         <div class="modal fade" id="ProjectModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Earfun Website Revamp</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-subheader">Student Name
+              <div class="modal-subheader">Oli Lennox
               </div>
 
             <div class="px-wide">
               <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/earfun1.PNG" class="d-block w-100" alt="image">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/earfun2.PNG" class="d-block w-100" alt="image">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/earfun3.PNG" class="d-block w-100" alt="image">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/earfun4.PNG" class="d-block w-100" alt="image">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/earfun5.PNG" class="d-block w-100" alt="image">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
@@ -436,9 +512,13 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             </div>
 
               <div class="modal-body">
-                <p>Modal body text goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                <p>This project is an overhaul of the Earfun website. This is a company that manufactures
+                  audio products. In my opinion their website was quite E-commerce looking and very generic.
+                  I have attempted to prototype a new website that is based around the advanced features of the products
+                  and how they will benefit the user. </p>
+                <p>Adobe XD was used to prototype the website. Adobe After Effect was used to make the animations used in the website.
+                  I then used the Lottie Files plugin to export these animations into an SVG file that could be run in XD. <br><br> Watch a walkthrough of the design:
+                  <a href="https://www.youtube.com/watch?v=WdDjqyLSB6k">Earfun Prototype Walkthrough</a></p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -452,38 +532,38 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     <div class="col">
 
         <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="ProjectModal6">
-          <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
-          <h3>Project Title</h3>
-          <h4>Student Name</h4>
+          <img src="project-images/socialhub1.PNG" width="380px" height= "217px" alt="project">
+          <h3>Social Hub Advert</h3>
+          <h4>Nathan Wilford</h4>
         </button>
 
         <div class="modal fade" id="ProjectModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Social Hub Advert</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-subheader">Student Name
+              <div class="modal-subheader">Nathan Wilford
               </div>
 
             <div class="px-wide">
               <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/socialhub1.PNG" class="d-block w-100" alt="image">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/socialhub2.PNG" class="d-block w-100" alt="image">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/socialhub3.PNG" class="d-block w-100" alt="image">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/socialhub4.PNG" class="d-block w-100" alt="image">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
+                    <img src="project-images/socialhub5.PNG" class="d-block w-100" alt="image">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
@@ -498,9 +578,8 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             </div>
 
               <div class="modal-body">
-                <p>Modal body text goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                <p> A video made using After Effects that is designed to advertise a product,
+                  the product in question for the video being Social Hub, a video and picture sharing platform.</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -510,198 +589,10 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
         </div>
 
     </div>
-</div>
+  </div>
+<!-- </div> -->
 
-    <div class="row">
-      <div class="col">
-
-          <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#ProjectModal7">
-            <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
-            <h3>Project Title</h3>
-            <h4>Student Name</h4>
-          </button>
-
-          <div class="modal fade" id="ProjectModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-subheader">Student Name
-                </div>
-
-              <div class="px-wide">
-                <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-
-                <div class="modal-body">
-                  <p>Modal body text goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      </div>
-
-
-      <div class="col">
-
-          <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#ProjectModal8">
-            <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
-            <h3>Project Title</h3>
-            <h4>Student Name</h4>
-          </button>
-
-          <div class="modal fade" id="ProjectModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-subheader">Student Name
-                </div>
-
-              <div class="px-wide">
-                <div id="carousel8" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-
-                <div class="modal-body">
-                  <p>Modal body text goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      </div>
-
-      <div class="col">
-
-          <button type="button" class="btn" id="btn-project" data-bs-toggle="modal" data-bs-target="#ProjectModal9">
-            <img src="images/image-placeholder-thumbnail.png" width="380px" height= "217px" alt="project">
-            <h3>Project Title</h3>
-            <h4>Student Name</h4>
-          </button>
-
-          <div class="modal fade" id="ProjectModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-subheader">Student Name
-                </div>
-
-              <div class="px-wide">
-                <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/image-placeholder.jpg" class="d-block w-100" alt="image">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-
-                <div class="modal-body">
-                  <p>Modal body text goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      </div>
-
-</div>
-</div>
+<!-- </div> -->
 </div>
 </div>
 <!-- 2022 Team -->
@@ -711,7 +602,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 
 <div class="container">
-  <div class="row">
+  <div class="flex-grid-thirds">
 
       <div class="col">
         <button type="button" class="btn" id="btn-team" data-bs-toggle="modal" data-bs-target="#TeamModal1">
@@ -784,7 +675,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
               <h3>Catherine Baptist</h3>
               <p>BSc Web Design</p>
             </div>
-            <p class="team-text">About</p>
+            <p class="team-text">My main goal is to work as a Web designer and programmer</p>
           </div>
         </div>
         </button>
@@ -806,9 +697,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             </div>
             <div class="modal-body-team">
               <h5>About</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+              <p>My main goal is to work as a Web designer and programmer, though I also have an interest in video editing and visual design.</p>
               <h5>Skills</h5>
               <ul id="skills">
                 <li class="list-item">HTML</li>
@@ -895,7 +784,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     </div>
 
 
-    <div class="row">
+    <div class="flex-grid-thirds">
 
 
       <div class="col">
@@ -1089,7 +978,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     </div>
 
 
-    <div class="row">
+    <div class="flex-grid-thirds">
 
 
       <div class="col">
@@ -1275,7 +1164,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     </div>
 
 
-    <div class="row">
+    <div class="flex-grid-thirds">
 
 
       <div class="col">
@@ -1352,7 +1241,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
               <h3>Luke Hindley</h3>
               <p>BSc Web Design</p>
             </div>
-            <p class="team-text">About</p>
+            <p class="team-text">I have a wide interest in video editing and visual design</p>
           </div>
         </div>
         </button>
@@ -1374,23 +1263,19 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             </div>
             <div class="modal-body-team">
               <h5>About</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+              <p>I have a wide interest in video editing and visual design.
+                I also enjoy designing and coding small websites. More than happy tackling
+                projects on my own but am very capable working in a team.</p>
               <h5>Skills</h5>
               <ul id="skills">
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
-                <li class="list-item">Placeholder</li>
+                <li class="list-item">HTML</li>
+                <li class="list-item">CSS</li>
+                <li class="list-item">Basic JavaScript</li>
+                <li class="list-item">Photoshop</li>
+                <li class="list-item">After Effects</li>
+                <li class="list-item">Illustrator</li>
+                <li class="list-item">XD</li>
+                <li class="list-item">Premiere Pro</li>
               </ul>
               <br><a href="https://www.linkedin.com/in/luke-hindley-023661195/"><img src="icons/linkedin-modal-48.svg" alt="linkedin"></a><br>
             </div>
@@ -1458,7 +1343,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     </div>
 
 
-    <div class="row">
+    <div class="flex-grid-thirds">
 
 
       <div class="col">
@@ -1634,7 +1519,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     </div>
 
 
-    <div class="row">
+    <div class="flex-grid-thirds">
 
 
       <div class="col">
@@ -1885,8 +1770,8 @@ $to = "webshowcase@hud.ac.uk";
 $headers = "From: $email_from \r\n";
 mail($to, $email_subject, $email_body, $headers);
 ?>
-           
-             
+
+
 <div class="Contact">
    <h2 id="contact">Contact Us</h2>
 
@@ -1911,8 +1796,8 @@ mail($to, $email_subject, $email_body, $headers);
      <br>
      <input type="submit" value="Submit" name="submit">
    </form>
-  
-   
+
+
 </div>
 
 <? php
@@ -1955,6 +1840,12 @@ mail($to, $email_subject, $email_body, $headers);
    <p1>Copyright: WEB22</p1> <a class="UniLink" href="https://www.hud.ac.uk/">University of Huddersfield</a>
 
 </div>
+
+<script>
+$(".navbar-collapse a").click(function () {
+  $(".navbar-collapse").collapse("hide");
+});
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
