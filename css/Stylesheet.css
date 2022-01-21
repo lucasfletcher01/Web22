@@ -14,7 +14,7 @@ z-index: 2;
 
 h2{
 font-size: 35px;
-scroll-margin-top: 10rem;
+scroll-margin-top: 37rem;
 }
 
 h3{
@@ -38,7 +38,6 @@ font-size: 16px;
 p1{
 text-decoration: none;
 }
-
 
 .Logo {
   padding: 5px;
@@ -81,10 +80,14 @@ a:active {
   z-index: 500;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
     color: white;
     background-color: #8074b4;
+}
+
+.navbar-toggler-icon {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .nav-link{
@@ -120,8 +123,8 @@ header{
 }
 
 #background-video {
-  width: 99.1vw;
-  height: 105vh;
+  width: 100vw;
+  height: 151vh;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -146,11 +149,43 @@ header{
 
 .MainText{
 
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-bottom: 93px;
+}
+
+.MainText p{
+  word-break: break-word;
+  overflow:auto;
+
+}
+
+/* .container{
+  display:flex;
+  height:100px;
+  flex-wrap:wrap;
+  overflow-y:hidden;
+} */
+
+.flex-grid {
+  display: block;
+}
+
+.col {
+  padding-bottom: 20px;
+}
+
+.flex-grid-thirds {
+  display: block;
+}
+.flex-grid-thirds .col {
+
+}
+
+#event{
+scroll-margin-top: 60rem;
 }
 
 .project-area{
@@ -162,7 +197,7 @@ header{
 .Projects{
 grid-row: 1 / span 3;
 margin-top: 46px;
-margin-bottom: 40px;
+margin-bottom: 80px;
 text-align: center;
 }
 
@@ -210,6 +245,7 @@ padding-top: 0px;
 padding-bottom: 0px;
 padding-left: 0px;
 padding-right: 0px;
+border-color: #414141;
 border-radius: 4px;
 box-shadow:2px 2px 15px #000;
 }
@@ -295,6 +331,10 @@ margin: auto;
   text-align: left;
   margin-right: 60px;
   padding-bottom: 8px;
+}
+
+#team{
+scroll-margin-top: 41rem;
 }
 
 .AboutTeam{
@@ -411,7 +451,7 @@ background-color: #c8bcff;
 .FAQbg {
 width: 100%;
 background-color: #c8bcff;
-margin-bottom: 40px;
+padding-bottom: 120px;
 }
 
 .accordion-button {
@@ -431,22 +471,20 @@ padding: 18px;
 
 .Contact {
 height: 300px;
-margin-top: 90px;
 /* margin-bottom: 300px; */
 text-align: center;
 background-color: #BBF3FF;
-padding: 15px;
+padding: 12px;
 width: 50%;
 float: left;
 }
 
 .Newsletter {
 height: 300px;
-margin-top: 90px;
 /* margin-bottom: 300px; */
 text-align: center;
 background-color: #FED500;
-/* padding: 15px;   */
+padding: 12px;
 width: 50%;
 float: right;
 }
@@ -478,9 +516,9 @@ color: (255,255,255,0.6);
 
   clear: both;
   position: relative;
-  height: 150px;
+  height: 120px;
   margin-top: -200px;
-
+  margin-bottom: -90px;
   width: 100%;
   text-align: right;
   font-size: 15px;
@@ -495,10 +533,17 @@ color: (255,255,255,0.6);
 }
 
 .SocialMedia{
+width: 10%;
+z-index: 1;
 position: fixed;
-bottom: 500px;
+bottom: 310px;
 background-color: gray;
 padding: 15px 0;
 float: left;
 margin-top: 100px;
+}
+
+.SocialMedia img{
+margin-top: 2px;
+margin-bottom: 2px;
 }
