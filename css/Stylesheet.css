@@ -290,7 +290,7 @@ padding-right: 0px;
 }
 
 .carousel{
-width: 800px;
+width: 100%;
 margin: auto;
 }
 
@@ -298,8 +298,13 @@ margin: auto;
   text-align: left;
 }
 
+
 .modal-body-video{
   text-align: center;
+}
+
+#ytplayer{
+  width: 100%;
 }
 
 .modal-body-event{
@@ -308,15 +313,25 @@ margin: auto;
 
 .modal-body-team{
   text-align: left;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  word-break: break-word;
+  overflow:auto;
+}
+
+.modal-body-team p{
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .member-img{
-  margin-right: auto;
-  padding-left: 50px;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  /* margin-right: auto;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+  width: 10%; */
+  display: none;
 }
 
 .member-info {
@@ -325,10 +340,10 @@ margin: auto;
 }
 
 #skills li {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   text-align: left;
-  margin-right: 60px;
+  margin-right: 9px;
   padding-bottom: 8px;
 }
 
