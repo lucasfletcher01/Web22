@@ -520,7 +520,7 @@ padding-bottom: 120px;
 /* background-color: light-gray;
 color: gray; */
 cursor pointer;
-padding 18px;
+padding: 18px;
 text-align: left;
 border: none;
 outline: none;
@@ -566,7 +566,7 @@ float: right;
 text-align: center;
 position: fixed;
 z-index: 1;
-font-family: 'Josefin Sans Regular';
+font-size: 10px;
 }
 
 .ScrolltoTop:hover {
