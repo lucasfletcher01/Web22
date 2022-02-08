@@ -104,7 +104,6 @@ li {
 
 a:link {
   text-decoration: none;
-  font-family: 'Josefin Sans Regular';
 }
 a:visited {
   text-decoration: none;
@@ -568,6 +567,7 @@ float: right;
 text-align: center;
 position: fixed;
 z-index: 1;
+font-family: 'Josefin Sans Regular';
 }
 
 .ScrolltoTop:hover {
