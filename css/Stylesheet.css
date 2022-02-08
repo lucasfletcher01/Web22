@@ -80,8 +80,7 @@ font-size: 16px;
 
 p1{
 text-decoration: none;
-  
-  font-family: 'Josefin Sans Regular';
+font-family: 'Josefin Sans Regular';
   
 }
 
@@ -105,6 +104,7 @@ li {
 
 a:link {
   text-decoration: none;
+  font-family: 'Josefin Sans Regular';
 }
 a:visited {
   text-decoration: none;
