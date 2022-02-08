@@ -47,23 +47,20 @@ font-style: bolder;
 margin-top: -50px;
 padding-top: 50px;
 z-index: 2;
-  
-  font-family: 'Josefin Sans 500';
+font-family: 'Josefin Sans 500';
   
 }
 
 h2{
 font-size: 35px;
 scroll-margin-top: 37rem;
-  
-  font-family: 'Josefin Sans 600';
+font-family: 'Josefin Sans 600';
   
 }
 
 h3{
 font-size: 16px;
-  
-  font-family: 'Josefin Sans 400';
+font-family: 'Josefin Sans 400';
   
 }
 
