@@ -1,8 +1,44 @@
 body{
 position: relative;
-
+font-family: "Josefin Sans";
 }
 
+/* josefin-sans-regular - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('fonts/josefin-sans-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/josefin-sans-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* josefin-sans-500 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('fonts/josefin-sans-v23-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/josefin-sans-v23-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* josefin-sans-600 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('fonts/josefin-sans-v23-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/josefin-sans-v23-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* josefin-sans-700 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('fonts/josefin-sans-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/josefin-sans-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 h1{
 font-size: 115px;
@@ -84,7 +120,7 @@ a:active {
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
     color: white;
-    background-color: #8074b4;
+    background-color: #5989b0;
     text-align: right;
 }
 
@@ -97,7 +133,7 @@ a:active {
 }
 
 .nav-link:hover{
-  color: #ffec87;
+  color: #6b48cc;
   font-size: 22px;
   font-weight: bolder;
   text-transform: uppercase;
@@ -175,7 +211,7 @@ header{
 
 .project-area{
   padding-bottom: 90px;
-  background-color: #8d80c9;
+  background-color: #253286;
 
 }
 
@@ -326,7 +362,7 @@ text-align: center;
 
 .team-area{
   padding-bottom: 90px;
-  background-color: #a596eb;
+  background-color: #2378b4;
 }
 
 .TeamVid{
@@ -383,7 +419,7 @@ text-align: center;
   overflow: hidden;
   bottom: 0;
   transition: all .4s;
-  background: #96F3FF;
+  background: #5633c3;
   z-index:5;
 }
 .single-team:hover .team-content{
@@ -397,16 +433,18 @@ text-align: center;
   background: #000;
 }
 .single-team .team-content .team-info h3 {
-  color: black;
+  color: white;
   font-size: 17px;
   margin: 5px;
+  text-shadow:1px 1px 2px #000;
 }
 .single-team:hover .team-info h3{
-  color: #96F3FF;
+  color: #5633c3;
 }
 .team-info p {
   margin-top: 15px;
-  color: black;
+  color: white;
+  text-shadow:1px 1px 2px #000;
 }
 .single-team:hover .team-info p{
   color: #fff;
@@ -426,12 +464,12 @@ text-align: center;
 width: 75%;
 align-content: center;
 margin: auto;
-background-color: #c8bcff;
+background-color: #65DDF3;
 }
 
 .FAQbg {
 width: 100%;
-background-color: #c8bcff;
+background-color: #65DDF3;
 padding-bottom: 120px;
 }
 
@@ -454,7 +492,7 @@ padding: 18px;
 height: 300px;
 /* margin-bottom: 300px; */
 text-align: center;
-background-color: #BBF3FF;
+background-color: #50a3de;
 padding: 15px;
 width: 50%;
 float: left;
@@ -464,7 +502,7 @@ float: left;
 height: 300px;
 /* margin-bottom: 300px; */
 text-align: center;
-background-color: #FED500;
+background-color: #815bec;
 padding: 15px;
 width: 50%;
 float: right;
