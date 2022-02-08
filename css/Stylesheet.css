@@ -6,7 +6,7 @@ font-family: "Josefin Sans";
 
 /* josefin-sans-regular - latin */
 @font-face {
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans Regular';
   font-style: normal;
   font-weight: 400;
   src: local(''),
@@ -14,8 +14,8 @@ font-family: "Josefin Sans";
        url('fonts/josefin-sans-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* josefin-sans-500 - latin */
-/* @font-face {
-  font-family: 'Josefin Sans';
+ @font-face {
+  font-family: 'Josefin Sans 500';
   font-style: normal;
   font-weight: 500;
   src: local(''),
@@ -24,7 +24,7 @@ font-family: "Josefin Sans";
 }
 /* josefin-sans-600 - latin */
 @font-face {
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans 600';
   font-style: normal;
   font-weight: 600;
   src: local(''),
@@ -33,13 +33,13 @@ font-family: "Josefin Sans";
 }
 /* josefin-sans-700 - latin */
 @font-face {
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans 700';
   font-style: normal;
   font-weight: 700;
   src: local(''),
        url('fonts/josefin-sans-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('fonts/josefin-sans-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-} */
+} 
 
 h1{
 font-size: 115px;
@@ -48,17 +48,23 @@ margin-top: -50px;
 padding-top: 50px;
 z-index: 2;
   
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans 500';
   
 }
 
 h2{
 font-size: 35px;
 scroll-margin-top: 37rem;
+  
+  font-family: 'Josefin Sans 600';
+  
 }
 
 h3{
 font-size: 16px;
+  
+  font-family: 'Josefin Sans 400';
+  
 }
 
 h4{
@@ -78,7 +84,7 @@ font-size: 16px;
 p1{
 text-decoration: none;
   
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans Regular';
   
 }
 
