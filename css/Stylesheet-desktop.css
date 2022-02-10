@@ -482,6 +482,10 @@ background-color: #65DDF3;
 padding-bottom: 120px;
 }
 
+#EventDetailQ {
+color: purple;
+}
+
 .accordion-button {
 /* background-color: light-gray;
 color: gray; */
