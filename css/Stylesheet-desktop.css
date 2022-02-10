@@ -41,7 +41,7 @@ font-family: "Josefin Sans";
 }
 
 h1{
-font-size: 115px;
+font-size: 80px;
 font-style: bolder;
 margin-top: -50px;
 padding-top: 50px;
@@ -153,12 +153,12 @@ max-width: 100%; height: auto;
 
 header{
   position: relative;
-  min-height: 100vh;
+  min-height: 65vh;
 }
 
 #background-video {
   width: 99.1vw;
-  height: 105vh;
+  height: 75vh;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -174,17 +174,11 @@ header{
 }
 
 
-.Tagline{
-  font-size: 28px;
-  font-weight: bold;
-  text-align: center;
-}
-
-
 .MainText{
 
   font-size: 25px;
   text-align: center;
+  margin-top: 32px;
   margin-left: 400px;
   margin-right: 400px;
   margin-bottom: 93px;
@@ -210,8 +204,9 @@ header{
 }
 
 .project-area{
+  margin-top: -48px;
   padding-bottom: 90px;
-  background-color: #253286;
+  background-color: #2378b4;
 
 }
 
@@ -362,7 +357,7 @@ text-align: center;
 
 .team-area{
   padding-bottom: 90px;
-  background-color: #2378b4;
+  background-color: #253286;
 }
 
 .TeamVid{
