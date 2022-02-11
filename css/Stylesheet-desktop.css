@@ -511,7 +511,7 @@ height: 300px;
 text-align: center;
 background-color: #50a3de;
 padding: 15px;
-width: 50%;
+width: 100%;
 float: left;
 }
 
@@ -521,7 +521,7 @@ height: 300px;
 text-align: center;
 background-color: #815bec;
 padding: 15px;
-width: 50%;
+width: 100%;
 float: right;
 }
 
