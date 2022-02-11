@@ -44,7 +44,7 @@ h1{
 font-size: 80px;
 font-style: bolder;
 margin-top: -50px;
-padding-top: 50px;
+padding-top: 100px;
 z-index: 2;
 }
 
@@ -167,7 +167,7 @@ header{
 
 #background-video {
   width: 99.1vw;
-  height: 75vh;
+  height: 85vh;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -191,6 +191,15 @@ header{
   margin-left: 400px;
   margin-right: 400px;
   margin-bottom: 93px;
+}
+
+#book-tickets{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: #4923B4;
+  border-radius: 7px;
 }
 
 .flex-grid {
@@ -380,6 +389,7 @@ text-align: center;
 
 
 .TeamMembers{
+  margin-top: 90px;
   padding-top: 90px;
   padding-bottom: 40px;
   text-align: center;
