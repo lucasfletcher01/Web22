@@ -463,7 +463,7 @@ text-align: center;
 
 .date {
   width: 100%;
-  text-align: justify;
+  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -471,7 +471,7 @@ text-align: center;
 .EventDetails {
 padding-top: 50px;
 margin-bottom: 40px;
-text-align: center;
+text-align: justify;
 width: 75%;
 align-content: center;
 margin: auto;
