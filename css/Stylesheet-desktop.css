@@ -167,7 +167,7 @@ header{
 
 #background-video {
   width: 99.1vw;
-  height: 85vh;
+  height: 100vh;
   object-fit: cover;
   position: absolute;
   left: 0;
