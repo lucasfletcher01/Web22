@@ -1693,32 +1693,20 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
   <form action="/contactform.php" method="POST" target="_self">
      <textarea type="text" id="name" name="name" style="border-radius:25px">Name</textarea>
      <br>
-
-     <label for="email">Email:</label>
+     <textarea type="text" id="contact_email" name="contact_email" style="border-radius:25px">Email</textarea>
      <br>
-     <input type="text" id="email" name="email" style="border-radius:25px">
-     <br>
-
-     <label for="message">Message:</label>
-     <br>
-     <textarea type="text"
-               name="message"
-               class="message"
-               style"height: 400px;" style="border-radius:25px">
-        </textarea>
+     <textarea type="text" name="message" class="message" style"height: 400px;" style="border-radius:25px">Message</textarea>
      <br>
      <input type="submit" value="Submit" name="submit" style="border-radius:25px">
    </form>
-
-
 </div>
+
 
  <div class="Newsletter">
     <h2>Join Mailing List</h2>
     <br>
     <form>
-       <label for="email">Email:</label><br>
-     <input type="text" id="email" name="email" style="border-radius:25px">
+      <textarea type="text" id="newsletter_email" name="newsletter_email" style="border-radius:25px">Email</textarea>
      <br>
      <input type="submit" id="signup" name="signup" value="Sign up" style="border-radius:25px">
    </div>
