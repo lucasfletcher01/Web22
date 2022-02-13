@@ -561,6 +561,7 @@ float: left;
 #contact_email {
 width: 25%;
 float: right;
+margin-bottom:10px;
 }
 
 #message {
