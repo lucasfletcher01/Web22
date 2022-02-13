@@ -556,6 +556,7 @@ resize: none;
 #contact_name {
 width: 25%;
 float: left;
+margin-bottom:10px;
 }
 
 #contact_email {
