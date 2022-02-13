@@ -546,6 +546,11 @@ width: 100%;
 float: right;
 }
 
+textarea {
+font-size: 20px;
+text-align: center;
+}
+
 .ScrollToTopBtn{
 margin-bottom:20px;
 }
