@@ -551,7 +551,6 @@ font-size: 20px;
 text-align: center;
 align-content: center;
 resize: none;
-/* width: 50%; */
 }
 
 #contact_name {
@@ -560,6 +559,14 @@ width: 25%;
 
 #contact_email {
 width: 25%;
+}
+
+#message {
+width: 50%;
+}
+
+#newsletter_email {
+width: 50%;
 }
 
 .ScrollToTopBtn{
