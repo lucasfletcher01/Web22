@@ -180,6 +180,8 @@ header{
 
 .Title{
  text-align: center;
+ color: white;
+ text-shadow:1px 1px 2px #000;
 }
 
 
@@ -191,6 +193,8 @@ header{
   margin-left: 400px;
   margin-right: 400px;
   margin-bottom: 93px;
+  color: white;
+  text-shadow:1px 1px 2px #000;
 }
 
 #book-tickets{
