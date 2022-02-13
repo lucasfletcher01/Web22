@@ -555,13 +555,13 @@ resize: none;
 
 #contact_name {
 width: 25%;
-float: left;
+/* float: left; */
 display: inline-block;
 }
 
 #contact_email {
 width: 25%;
-float: right;
+/* float: right; */
 display: inline-block;
 }
 
