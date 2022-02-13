@@ -573,30 +573,6 @@ width: 50%;
 width: 50%;
 }
 
-#container {
-width:50%;
-}
-
-#container .box {
-width: 96%;
-margin: 1% 2% 1% 2%;
-}
-
-#container .box #contact_name {
-  width: 48%;
-  height: 4%;
-  border; 1px solid white;
-  float: left;
-}
-
-#container .box #contact_email {
-  width: 48%;
-  height: 4%;
-  border; 1px solid white;
-  float: left;
-  margin-left: 4%;
-}
-
 .ScrollToTopBtn{
 margin-bottom:20px;
 }
