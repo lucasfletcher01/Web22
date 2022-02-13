@@ -556,16 +556,17 @@ resize: none;
 #contact_name {
 width: 25%;
 float: left;
+display: inline-block;
 }
 
 #contact_email {
 width: 25%;
 float: right;
+display: inline-block;
 }
 
 #message {
 width: 50%;
-padding: 50px;
 }
 
 #newsletter_email {
