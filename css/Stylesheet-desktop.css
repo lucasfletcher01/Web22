@@ -556,21 +556,21 @@ resize: none;
 #contact_name {
 width: 25%;
 float: left;
-margin-bottom:10px;
 }
 
 #contact_email {
 width: 25%;
 float: right;
-margin-bottom:10px;
 }
 
 #message {
 width: 50%;
+
 }
 
 #newsletter_email {
 width: 50%;
+margin-top: 10px;
 }
 
 .ScrollToTopBtn{
