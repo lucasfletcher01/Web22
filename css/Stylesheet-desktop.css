@@ -555,10 +555,12 @@ resize: none;
 
 #contact_name {
 width: 25%;
+float: left;
 }
 
 #contact_email {
 width: 25%;
+float: right;
 }
 
 #message {
