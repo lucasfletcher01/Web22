@@ -565,12 +565,11 @@ float: right;
 
 #message {
 width: 50%;
-
+margin-top: 10px;
 }
 
 #newsletter_email {
 width: 50%;
-margin-top: 10px;
 }
 
 .ScrollToTopBtn{
