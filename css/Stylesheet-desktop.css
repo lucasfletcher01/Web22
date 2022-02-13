@@ -549,6 +549,7 @@ float: right;
 textarea {
 font-size: 20px;
 text-align: center;
+align-content: center;
 resize: none;
 }
 
