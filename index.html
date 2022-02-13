@@ -1687,31 +1687,13 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 <!-- Contact us -->
 
-<? php
-$name = ''$_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-
-$email_from = 'webshowcase@hud.ac.uk'
-$email_subject = "Message from contact form";
-$email_body = "Submitted from contact form by $name.\n".
-"Message: \n $message".
-
-mail(to, subject, message, headers)
-
-$to = "webshowcase@hud.ac.uk";
-$headers = "From: $email_from \r\n";
-mail($to, $email_subject, $email_body, $headers);
-?>
-
-
 <div class="Contact">
    <h2 id="contact">Contact Us</h2>
 
   <form action="contactform.php" method="POST">
      <label for="name">Name:</label>
      <br>
-     <input type="text" id="name" name="name">
+     <input type="text" id="name" name="name" style="border-radius:25px">
      <br>
 
      <label for="email">Email:</label>
@@ -1727,34 +1709,20 @@ mail($to, $email_subject, $email_body, $headers);
                style"height: 400px;">
         </textarea>
      <br>
-     <input type="submit" value="Submit" name="submit">
+     <input type="submit" value="Submit" name="submit" style="border-radius:25px>
    </form>
 
 
 </div>
-
-<? php
-$email = $_POST['email'];
-
-$email_from = 'webshowcase@hud.ac.uk'
-$email_subject = "Newsletter signup";
-$email_body = "This user would like to signup for the newsletter.";
-
-mail(to, subject, headers)
-
-$to = "webshowcase@hud.ac.uk";
-$headers = "From: $email_from \r\n";
-mail($to, $email_subject, $email_body, $headers);
-?>
 
  <div class="Newsletter">
     <h2>Sign up to our newsletter</h2>
     <br>
     <form>
        <label for="email">Email:</label><br>
-     <input type="text" id="email" name="email">
+     <input type="text" id="email" name="email" style="border-radius:25px>
      <br>
-     <input type="submit" id="signup" name="signup" value="Sign up">
+     <input type="submit" id="signup" name="signup" value="Sign up" style="border-radius:25px>
    </div>
 
 <div class="ScrollToTopBtn">
