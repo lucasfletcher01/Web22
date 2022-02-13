@@ -569,8 +569,16 @@ display: inline-block;
 width: 50%;
 }
 
+#submit {
+width: 25%;
+}
+
 #newsletter_email {
 width: 50%;
+}
+
+#signup {
+width: 25%;
 }
 
 .ScrollToTopBtn{
