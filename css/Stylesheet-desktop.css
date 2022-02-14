@@ -515,21 +515,6 @@ padding-top: 50px;
 color: #4923B4;
 }
 
-.accordion-button {
-/* background-color: light-gray;
-color: gray; */
-cursor pointer;
-padding 18px;
-text-align: left;
-border: none;
-outline: none;
-transition: 0.4s;
-}
-
-.accordion-body {
-padding: 18px;
-}
-
 .Contact {
 height: 330px;
 margin-bottom: 0px;
