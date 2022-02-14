@@ -517,7 +517,7 @@ color: #4923B4;
 
 .ContactUs {
 background-image: -webkit-linear-gradient(#50a3de, #815bec);
-height: 400px;
+height: 800px;
 }
 
 .Contact {
@@ -602,8 +602,8 @@ color: (255,255,255,0.6);
   clear: both;
   position: relative;
   height: 250px;
-  margin-top: -40px;
-  margin-bottom: -80px;
+  margin-top: -100px;
+  margin-bottom: -50px;
   width: 100%;
   text-align: right;
   background-color: #414141;
