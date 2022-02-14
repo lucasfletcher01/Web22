@@ -515,6 +515,10 @@ padding-top: 50px;
 color: #4923B4;
 }
 
+.ContactUs {
+
+}
+
 .Contact {
 height: 200px;
 margin-bottom: 0px;
@@ -617,9 +621,9 @@ color: (255,255,255,0.6);
 }
 
 .SocialMedia{
-/* bottom: 50px; */
+bottom: 50px;
 float: right;
 margin-top: 20px;
-/* margin-bottom: -50px; */
+margin-bottom: -50px;
 margin-right: 15px
 }
