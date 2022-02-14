@@ -623,6 +623,7 @@ color: (255,255,255,0.6);
 .FooterText {
  font-size: 15px;
  color: #C4C4C4;
+ margin-right: 5px;
 }
 
 .UniLink {
