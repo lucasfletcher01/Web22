@@ -411,12 +411,12 @@ text-align: center;
   text-align: center;
   
   
-  animation: fadeIn ease 3s;
+  animation: TeamAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
-@keyframes fadeIn {
+@keyframes TeamAnimation {
   0% {
     opacity: 0;
   }
