@@ -417,9 +417,7 @@ text-align: center;
   padding-top: 90px;
   padding-bottom: 40px;
   text-align: center;
-}
 
-.TeamMembers{
   animation-name: TeamAnimation;
   animation-direction: normal;
   animation-iteration-count: 1;
