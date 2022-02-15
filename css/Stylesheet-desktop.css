@@ -427,15 +427,20 @@ text-align: center;
   @keyframes TeamAnimation {
     from {
     opacity: 0%;
+    margin-top: 0%
     }
     to {
     opacity 100%;
+    margin-top: 100%
     }
 }
 
-/* .TeamAnimation {
-
-} */
+.TeamAnimation {
+  animation-name: TeamAnimation;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+}
 
 .TeamMembers h2{
   color: white;
