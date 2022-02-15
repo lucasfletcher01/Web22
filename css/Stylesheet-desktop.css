@@ -121,6 +121,7 @@ a:active {
 }
 
 .Navbar{
+  background-color: transparent;
   position: sticky;
   top: 0;
   margin-top: -117px;
@@ -423,7 +424,7 @@ text-align: center;
   animation-direction: normal;
   animation-iteration-count: 1;
   animation-duration: 4s;
-  
+
 }
 
   @keyframes TeamAnimation {
@@ -537,6 +538,10 @@ width: 75%;
 align-content: center;
 margin: auto;
 background-color: #65DDF3;
+}
+
+.EventDetails h5 {
+padding-top: 30px;
 }
 
 .EventDetailsbg {
