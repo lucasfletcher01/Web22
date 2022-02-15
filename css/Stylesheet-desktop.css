@@ -416,11 +416,6 @@ text-align: center;
   padding-top: 90px;
   padding-bottom: 40px;
   text-align: center;
-  
-  
-  animation: TeamAnimation ease 3s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
 }
 
 @keyframes TeamAnimation {
@@ -428,8 +423,10 @@ text-align: center;
   100% {opacity: 1;}
 }
 
-.Animation_container {
-
+.Animation_container {  
+  animation: TeamAnimation ease 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 
 section.is-inview {
