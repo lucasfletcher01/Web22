@@ -427,12 +427,12 @@ text-align: center;
   @keyframes TeamAnimation {
     from {
     opacity: 0%;
-    bottom: 0%;
+    top: 0%;
     -webkit-animation-timing-function: ease-in;
     }
     to {
     opacity: 100%;
-    bottom: 100%;
+    top: 100%;
     -webkit-animation-timing-function: ease-out;
     }
 }
