@@ -11,4 +11,4 @@ TeamMember.classList.add('TeamAnimation');
 });
 });
 
-observer.observe(document.querySelector('.team-area'));
+observer.observe(document.querySelector('.TeamWrapper'));
