@@ -416,6 +416,7 @@ text-align: center;
   padding-top: 90px;
   padding-bottom: 40px;
   text-align: center;
+  animation-name: TeamAnimation;
 }
 
   @keyframes TeamAnimation {
@@ -423,15 +424,8 @@ text-align: center;
   100% {opacity: 1;}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-.TeamMembers{
-  transition: opacity 1.5s ease, transform 1.5s ease;
-  }
-}
-
 .TeamAnimation {
-opacity: 1;
-  transform: none;
+
 }
 
 
