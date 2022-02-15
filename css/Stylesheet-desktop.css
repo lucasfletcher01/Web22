@@ -423,12 +423,6 @@ text-align: center;
   100% {opacity: 1;}
 } */
 
-.Animation_container {  
-/*   animation: TeamAnimation ease 3s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite; */
-}
-
 @media (prefers-reduced-motion: no-preference) {
 .TeamMembers{
   transition: opacity 1.5s ease, transform 1.5s ease;
