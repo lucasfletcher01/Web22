@@ -437,7 +437,7 @@ text-align: center;
     }
 }
 
-.TeamAnimation {
+.TeamAnimation.start {
   animation-name: TeamAnimation;
   animation-direction: normal;
   animation-iteration-count: 1;
