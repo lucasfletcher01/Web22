@@ -1,6 +1,9 @@
+const section = document.querySelector('section');
+section.classList.remove('TeamAnimation');
+
 const observer = new IntersectionObserver(entries => {
 entries.forEach(entry => {
-const section = entry.target.querySelector('section');
+// const section = entry.target.querySelector('section');
   
   if(entry.isIntersecting) {
   section.classList.add('TeamAnimation');
