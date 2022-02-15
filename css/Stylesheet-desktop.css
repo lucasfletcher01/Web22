@@ -418,16 +418,28 @@ text-align: center;
   text-align: center;
 }
 
-@keyframes TeamAnimation {
+/* @keyframes TeamAnimation {
   0% {opacity: 0;}
   100% {opacity: 1;}
-}
+} */
 
 .Animation_container {  
-  animation: TeamAnimation ease 3s;
+/*   animation: TeamAnimation ease 3s;
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
+
+@media (prefers-reduced-motion: no-preference) {
+.TeamMembers{
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.TeamAnimation {
+opacity: 1;
+  transform: none;
+}
+
 
 section.is-inview {
 opacity:1;
