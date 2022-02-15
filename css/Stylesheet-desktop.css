@@ -418,10 +418,10 @@ text-align: center;
   text-align: center;
 }
 
-/* @keyframes TeamAnimation {
+  @keyframes TeamAnimation {
   0% {opacity: 0;}
   100% {opacity: 1;}
-} */
+}
 
 @media (prefers-reduced-motion: no-preference) {
 .TeamMembers{
