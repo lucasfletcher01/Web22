@@ -418,7 +418,7 @@ text-align: center;
   text-align: center;
 }
 
-.TeamMembers.start{
+.TeamMembers{
   animation-name: TeamAnimation;
   animation-direction: normal;
   animation-iteration-count: 1;
