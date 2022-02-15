@@ -437,12 +437,12 @@ text-align: center;
     }
 }
 
-/* .TeamAnimation {
+.TeamAnimation {
   animation-name: TeamAnimation;
   animation-direction: normal;
   animation-iteration-count: 1;
   animation-duration: 4s;
-} */
+}
 
 .TeamMembers h2{
   color: white;
