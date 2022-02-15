@@ -419,6 +419,7 @@ text-align: center;
   
   animation-name: TeamAnimation;
   animation-direction: forward;
+  animation-iteration-count: 1;
   
 }
 
