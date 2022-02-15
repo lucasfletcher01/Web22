@@ -24,3 +24,6 @@ var $elem = $('.bar .level');
 $(window).scroll(function(){
 checkAnimation();
 });
+
+
+// IntersectionObserverAPI
