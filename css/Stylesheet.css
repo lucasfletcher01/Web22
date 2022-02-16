@@ -115,6 +115,10 @@ li {
     display: list-item;
 }
 
+a {
+font-family: "Josefin Sans Regular";
+}
+
 a:link {
   text-decoration: none;
 }
