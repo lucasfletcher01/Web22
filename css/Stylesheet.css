@@ -1,3 +1,8 @@
+body{
+position: relative;
+font-family: "Josefin Sans";
+}
+
 /* josefin-sans-regular - latin */
 @font-face {
   font-family: 'Josefin Sans Regular';
@@ -40,10 +45,7 @@
       
 }
 
-body{
-position: relative;
-font-family: "Josefin Sans";
-}
+
 
 h1{
 font-size: 80px;
@@ -93,7 +95,6 @@ color: #4923B4;
 p1{
 text-decoration: none;
 font-family: "Josefin Sans Regular";
-font-size: 16px;
 }
   
 .Logo {
