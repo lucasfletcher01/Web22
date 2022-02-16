@@ -1,6 +1,6 @@
 body{
 position: relative;
-font-family: "Josefin Sans";
+font-family: "Josefin Sans Regular";
 }
 
 /* josefin-sans-regular - latin */
@@ -53,6 +53,7 @@ font-style: bolder;
 margin-top: -50px;
 padding-top: 100px;
 z-index: 2;
+font-family: "Josefin Sans Regular";
 }
 
 h2{
