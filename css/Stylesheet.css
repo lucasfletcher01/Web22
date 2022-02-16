@@ -58,29 +58,29 @@ z-index: 2;
 h2{
 font-size: 35px;
 scroll-margin-top: 37rem;
-font-family: "Josefin Sans 600";
+font-family: "Josefin Sans 500";
 }
 
 h3{
 font-size: 16px;
-font-family: "Josefin Sans 400";
+font-family: "Josefin Sans 500";
 }
 
 h4{
 font-size: 14px;
 font-weight: normal;
-font-family: "Josefin Sans 400";
+font-family: "Josefin Sans 500";
 }
 
 h5{
 font-size: 24px;
 padding-bottom: 10px;
-font-family: "Josefin Sans 400";
+font-family: "Josefin Sans 500";
 }
 
 h6{
 font-size: 16px;
-font-family: "Josefin Sans 400";
+font-family: "Josefin Sans 500";
 }
 
 h7{
