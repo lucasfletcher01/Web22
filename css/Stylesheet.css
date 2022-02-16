@@ -40,7 +40,6 @@
       
 }
 
-@media (min-width: 400px) {
 body{
 position: relative;
 font-family: "Josefin Sans";
@@ -701,6 +700,4 @@ float: right;
 margin-top: 20px;
 margin-bottom: -50px;
 margin-right: 15px
-}
-  
 }
