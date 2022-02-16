@@ -43,6 +43,8 @@
 body{
 position: relative;
 font-family: "Josefin Sans";
+-webkit-text-size-adjust: auto;
+text-size-adjust: auto;
 }
 
 h1{
