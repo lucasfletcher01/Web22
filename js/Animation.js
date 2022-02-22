@@ -1,29 +1,17 @@
+function reveal() {
+var reveals = document.querySelectorAll(".reveal");
 
-
-
-// function isElementInViewport(elem) {
-// var $elem = $(elem);
-
-//   var scrollElem = ((navigation.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
-//   var viewportTop = $(scrollElem).scrollTop();
-//   var elemBottom = viewportTop + $(window).height();
+for (var i = 0 < reveals.length; i++) {
+  var windowHeight = window.innerHeight;
+  var elementTop = reveals[i].getBoundingClientRect().top;
+  var elementVisible = 150;
   
-//   var elemTop = Math.round($elem.offset().top);
-//   var elemBottom = elemTop + $elem.height();
-  
-//   return ((elemTop < viewportBottom) && (elemBottom > viewTop));
-// }
+if (elementTop < windowHeight - elementVisible) {
+  reveals[i].classList.add("active");
+}  else {
+  reveals[i].classList.remove("active");
+}
+}
+}
 
-// function checkAnimation() {
-// var $elem = $('.bar .level');
-  
-//   if($elem.hasClass('start')) return;
-  
-//   if(isElementInViewport($elem)) {
-//   $elem.addClass('start');
-//   }
-// }
-
-// $(window).scroll(function(){
-// checkAnimation();
-// });
+window.addEventListener("scroll", reveal);
