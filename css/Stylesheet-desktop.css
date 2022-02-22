@@ -245,6 +245,19 @@ header{
   padding: 20px;
 }
 
+
+.reveal {
+  posistion: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .project-area{
   margin-top: -48px;
   padding-bottom: 90px;
