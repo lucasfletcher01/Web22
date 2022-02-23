@@ -89,6 +89,10 @@ p1{
 text-decoration: none;
 }
 
+p{
+text-decoration: none;
+font-family: "Josefin Sans Regular";
+}
 
 .Logo {
   padding: 10px;
