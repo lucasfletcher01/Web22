@@ -42,7 +42,7 @@ font-family: "Josefin Sans";
 
 h1{
 font-size: 80px;
-font-style: bolder;
+font-style: bold;
 margin-top: -50px;
 padding-top: 100px;
 z-index: 2;
@@ -73,7 +73,7 @@ font-size: 16px;
 
 h7{
   font-size: 80px;
-font-style: bolder;
+font-style: bold;
 margin-top: -50px;
 padding-top: 50px;
 z-index: 2;
