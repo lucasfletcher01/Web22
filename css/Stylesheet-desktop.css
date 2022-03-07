@@ -564,7 +564,7 @@ text-align: justify;
 width: 75%;
 align-content: center;
 margin: auto;
-background-color: #65DDF3;
+/* background-color: #65DDF3; */
 }
 
 .EventDetails h5 {
