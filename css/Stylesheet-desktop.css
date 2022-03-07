@@ -565,11 +565,11 @@ width: 75%;
 align-content: center;
 margin: auto;
 background-color: #65DDF3;
+border: solid 4px white;
 }
 
 .EventDetails h5 {
 padding-top: 30px;
-border: solid 4px white;
 }
 
 .EventDetailsbg {
