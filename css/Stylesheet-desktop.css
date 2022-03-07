@@ -578,6 +578,9 @@ background-color: #65DDF3;
 padding-bottom: 106px;
 text-align: center;
 padding-top: 25px;
+}
+
+.EventBorder {
 border: solid 4px white;
 }
 
