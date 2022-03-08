@@ -211,10 +211,10 @@ header{
 
   font-size: 25px;
   text-align: center;
-/*   margin-top: 32px;
+  margin-top: 32px;
   margin-left: 400px;
   margin-right: 400px;
-  margin-bottom: 93px; */
+  margin-bottom: 93px;
   margin: auto;
   color: white;
   text-shadow:1px 1px 2px #000;
