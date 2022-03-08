@@ -397,6 +397,7 @@ margin: auto;
   text-align: left;
   padding-left: 50px;
   padding-right: 50px;
+  margin: auto;
 }
 
 .member-img{
@@ -409,8 +410,6 @@ margin: auto;
 .member-info {
     display: flex;
     align-items:center;
-  margin: auto;
-  width: 100%;
 }
 
 #skills li {
