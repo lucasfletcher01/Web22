@@ -410,6 +410,7 @@ margin: auto;
     display: flex;
     align-items:center;
   margin: auto;
+  width: 100%;
 }
 
 #skills li {
