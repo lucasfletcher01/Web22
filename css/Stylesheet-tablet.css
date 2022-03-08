@@ -395,8 +395,8 @@ margin: auto;
 
 .modal-body-team{
   text-align: left;
-/*   padding-left: 50px;
-  padding-right: 50px; */
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .member-img{
@@ -409,6 +409,7 @@ margin: auto;
 .member-info {
     display: flex;
     align-items:center;
+  margin: auto;
 }
 
 #skills li {
