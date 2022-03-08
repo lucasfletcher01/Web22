@@ -41,16 +41,16 @@ font-family: "Josefin Sans";
 }
 
 h1{
-font-size: 115px;
-font-style: bolder;
+font-size: 80px;
+font-style: bold;
 margin-top: -50px;
-padding-top: 50px;
+padding-top: 100px;
 z-index: 2;
 }
 
 h2{
 font-size: 35px;
-scroll-margin-top: 39rem;
+scroll-margin-top: 10rem;
 }
 
 h3{
@@ -71,10 +71,32 @@ h6{
 font-size: 16px;
 }
 
+h7{
+  font-size: 80px;
+font-style: bold;
+margin-top: -50px;
+padding-top: 50px;
+z-index: 2;
+color: #4923B4;
+}
+
+h8 {
+font-size: 40px;
+padding-bottom: 10px;
+}
+
 p1{
 text-decoration: none;
 }
 
+p{
+text-decoration: none;
+font-family: "Josefin Sans Regular";
+}
+
+p2{
+font-size: 25px;
+}
 
 .Logo {
   padding: 10px;
@@ -122,12 +144,8 @@ a:active {
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
     color: white;
-    background-color: #5989b0;
+    background-color: transparent;
     text-align: right;
-}
-
-.navbar-toggler-icon {
-     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .nav-link{
@@ -159,12 +177,12 @@ max-width: 100%; height: auto;
 
 header{
   position: relative;
-  min-height: 100vh;
+  min-height: 65vh;
 }
 
 #background-video {
-  width: 100vw;
-  height: 140vh;
+  width: 99.1vw;
+  height: 100vh;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -177,30 +195,49 @@ header{
 
 .Title{
  text-align: center;
+ color: white;
+ text-shadow:1px 1px 2px #000;
 }
 
-
-.Tagline{
-  font-size: 28px;
-  font-weight: bold;
-  text-align: center;
+.Title h1{
+  font-size: 80px;
+  font-style: bolder;
+  margin-top: -50px;
+  padding-top: 200px;
+  z-index: 2;
 }
-
 
 .MainText{
 
   font-size: 25px;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-top: 32px;
+  margin-left: 400px;
+  margin-right: 400px;
   margin-bottom: 93px;
+  color: white;
+  text-shadow:1px 1px 2px #000;
 }
 
-.MainText p{
-  word-break: break-word;
-  overflow:auto;
+#book-tickets{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-color: #4923B4;
+  border-radius: 20px;
+  text-shadow:1px 1px 2px #000;
 }
 
+#watch-video{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-color: #2378b4;
+  border-radius: 20px;
+  text-shadow:1px 1px 2px #000;
+}
 
 .flex-grid {
   display: flex;
@@ -210,8 +247,6 @@ header{
 .col {
   flex: 1;
   width: 32%;
-  padding-left: 12px;
-  padding-right: 12px;
 }
 
 .flex-grid-thirds {
@@ -220,17 +255,25 @@ header{
 }
 .flex-grid-thirds .col {
   width: 32%;
-  padding: 15px;
+  padding: 20px;
 }
 
-#event{
-scroll-margin-top: 50rem;
+.reveal {
+  posistion: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
 }
 
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
 
 .project-area{
+  margin-top: -48px;
   padding-bottom: 90px;
-  background-color: #253286;
+  background-color: #2378b4;
 
 }
 
@@ -243,7 +286,7 @@ text-align: center;
 
 .Projects h2{
   padding-top: 75px;
-  margin-bottom: 17px;
+  margin-bottom: 50px;
   color: white;
   text-shadow:1px 1px 2px #000;
 }
@@ -331,7 +374,7 @@ padding-right: 0px;
 }
 
 .carousel{
-width: 100%;
+width: 800px;
 margin: auto;
 }
 
@@ -343,36 +386,21 @@ margin: auto;
   text-align: center;
 }
 
-#ytplayer{
-  width: 100%;
-}
-
 .modal-body-event{
   text-align: center;
 }
 
 .modal-body-team{
   text-align: left;
-  padding-left: 10px;
-  padding-right: 10px;
-  word-break: break-word;
-  overflow:auto;
-}
-
-.modal-body-team p{
-  text-align: left;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.modal-body-team h5{
-  text-align: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .member-img{
-  display: none;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .member-info {
@@ -381,15 +409,11 @@ margin: auto;
 }
 
 #skills li {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
   text-align: left;
-  margin-right: 30px;
+  margin-right: 60px;
   padding-bottom: 8px;
-}
-
-#team{
-scroll-margin-top: 42rem;
 }
 
 .AboutTeam{
@@ -400,7 +424,7 @@ text-align: center;
 
 .team-area{
   padding-bottom: 90px;
-  background-color: #2378b4;
+  background-color: #253286;
 }
 
 .TeamVid{
@@ -412,11 +436,41 @@ text-align: center;
   margin: 0 auto;
 }
 
-
 .TeamMembers{
+  margin-top: 90px;
   padding-top: 90px;
   padding-bottom: 40px;
   text-align: center;
+
+  animation-name: TeamAnimation;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+
+}
+
+  @keyframes TeamAnimation {
+    from {
+    opacity: 0%;
+    top: 0%;
+    -webkit-animation-timing-function: ease-in;
+    }
+    to {
+    opacity: 100%;
+    top: 100%;
+    -webkit-animation-timing-function: ease-out;
+    }
+}
+
+.TeamAnimation {
+  animation-name: TeamAnimation;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+}
+
+.revealOnScroll {
+
 }
 
 .TeamMembers h2{
@@ -486,7 +540,7 @@ text-align: center;
 }
 .single-team:hover .team-info p{
   color: #fff;
-}
+}//
 .single-team-text p{
   margin-top: 5px;
 }
@@ -495,55 +549,109 @@ text-align: center;
   padding: 0 10px 5px;
 }
 
-.FAQ {
-padding-top: 107px;
+.date {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.EventDetails {
+padding-top: 50px;
 margin-bottom: 40px;
-text-align: center;
+text-align: justify;
 width: 75%;
 align-content: center;
 margin: auto;
-background-color: #65DDF3;
 }
 
-.FAQbg {
+/* .EventDetails h5 {
+padding-top: 30px;
+} */
+
+.EventDetails h2 {
+text-align: center;
+}
+
+.EventDetailsbg {
 width: 100%;
-background-color: #65DDF3;
-padding-bottom: 120px;
+background-color: #5FCFE3;
+padding-bottom: 25px;
+text-align: center;
+padding-top: 25px;
 }
 
-.accordion-button {
-/* background-color: light-gray;
-color: gray; */
-cursor pointer;
-padding 18px;
-text-align: left;
-border: none;
-outline: none;
-transition: 0.4s;
+/* .EventBorder {
+border: solid 4px white;
+margin: auto;
+} */
+
+#EventDetailQ {
+color: #4923B4;
 }
 
-.accordion-body {
-padding: 18px;
+#EventLink {
+font-size: 25px;
+}
+
+.ContactUs {
+background-image: -webkit-linear-gradient(#50a3de, #815bec);
+height: 650px;
 }
 
 .Contact {
-height: 300px;
-/* margin-bottom: 300px; */
+height: 200px;
+margin-bottom: 120px;
 text-align: center;
-background-color: #50a3de;
+/* background-color: #50a3de; */
 padding: 15px;
-width: 50%;
+width: 100%;
 float: left;
 }
 
 .Newsletter {
-height: 300px;
-/* margin-bottom: 300px; */
+height: 200px;
+margin-bottom: 0px;
 text-align: center;
-background-color: #815bec;
+/* background-color: #815bec; */
 padding: 15px;
-width: 50%;
+width: 100%;
 float: right;
+}
+
+textarea {
+font-size: 20px;
+text-align: center;
+align-content: center;
+resize: none;
+}
+
+#contact_name {
+width: 25%;
+/* float: left; */
+display: inline-block;
+}
+
+#contact_email {
+width: 25%;
+/* float: right; */
+display: inline-block;
+}
+
+#message {
+width: 50%;
+}
+
+#submit {
+width: 25%;
+}
+
+#newsletter_email {
+width: 50%;
+}
+
+#signup {
+width: 25%;
 }
 
 .ScrollToTopBtn{
@@ -570,19 +678,22 @@ color: (255,255,255,0.6);
 }
 
 .Footer {
-
   clear: both;
   position: relative;
-  height: 150px;
-  margin-top: -200px;
-  margin-bottom: -90px;
+  height: 200px;
+  margin-top: -100px;
+  margin-bottom: -50px;
   width: 100%;
   text-align: right;
-  font-size: 15px;
-  color: #C4C4C4;
   background-color: #414141;
   text-decoration: none;
+}
 
+.FooterText {
+ font-size: 15px;
+ color: #C4C4C4;
+ margin-top: 10px;
+ margin-right: 5px;
 }
 
 .UniLink {
@@ -590,17 +701,9 @@ color: (255,255,255,0.6);
 }
 
 .SocialMedia{
-width: 7%;
-z-index: 1;
-position: fixed;
-bottom: 300px;
-background-color: gray;
-padding: 15px 0;
-float: left;
-margin-top: 100px;
-}
-
-.SocialMedia img{
-margin-top: 2px;
-margin-bottom: 2px;
+bottom: 50px;
+float: right;
+margin-top: 20px;
+margin-bottom: -50px;
+margin-right: 15px
 }
