@@ -563,7 +563,7 @@ padding-top: 50px;
 text-align: justify;
 width: 75%;
 align-content: center;
-margin: auto;
+/* margin: auto; */
 }
 
 /* .EventDetails h5 {
