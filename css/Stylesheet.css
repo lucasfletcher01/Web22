@@ -94,14 +94,22 @@ color: #4923B4;
 font-family: "Josefin Sans Regular";
 }
 
+h8 {
+font-size: 40px;
+padding-bottom: 10px;
+}
+
 p1{
 text-decoration: none;
-font-family: "Josefin Sans Regular";
 }
 
 p{
 text-decoration: none;
 font-family: "Josefin Sans Regular";
+}
+
+p2{
+font-size: 25px;
 }
   
 .Logo {
