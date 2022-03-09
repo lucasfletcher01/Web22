@@ -412,8 +412,8 @@ margin: auto;
 
 .member-info {
     display: flex;
-    align-self: stretch;
-  margin-right: auto;
+    align-self: inherit;
+/*   margin-right: auto; */
 }
 
 #skills li {
