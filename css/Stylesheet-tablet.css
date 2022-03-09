@@ -412,7 +412,7 @@ margin: auto;
 
 .member-info {
     display: flex;
-    align-items:left;
+    align-content: left;
   margin-right: auto;
 }
 
