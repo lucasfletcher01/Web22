@@ -413,6 +413,7 @@ margin: auto;
 .member-info {
     display: flex;
     align-items:center;
+  margin-right: auto;
 }
 
 #skills li {
