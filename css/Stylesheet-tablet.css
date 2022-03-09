@@ -377,7 +377,8 @@ padding-right: 0px;
 }
 
 .carousel{
-width: 800px;
+/* width: 800px; */
+  width: 100%;
 margin: auto;
 }
 
