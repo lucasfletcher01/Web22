@@ -97,10 +97,12 @@ font-family: "Josefin Sans Regular";
 h8 {
 font-size: 40px;
 padding-bottom: 10px;
+font-family: "Josefin Sans Regular";
 }
 
 p1{
 text-decoration: none;
+font-family: "Josefin Sans Regular";
 }
 
 p{
@@ -110,6 +112,7 @@ font-family: "Josefin Sans Regular";
 
 p2{
 font-size: 25px;
+font-family: "Josefin Sans Regular";
 }
   
 .Logo {
@@ -124,11 +127,12 @@ ul{
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
+  font-family: "Josefin Sans Regular";
 }
 
 li {
     display: list-item;
-    font-family: "Josefin Sans Regular"
+    font-family: "Josefin Sans Regular";
 }
 
 a {
