@@ -614,12 +614,8 @@ margin-bottom: 0px;
 text-align: center;
 /* background-color: #815bec; */
 padding: 15px;
-width: 100%;
+width: 25%;
 float: right;
-}
-
-#mc_embed_subscribe {
-width: 25px;
 }
 
 .mc-field-group {
