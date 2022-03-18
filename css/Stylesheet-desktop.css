@@ -596,6 +596,7 @@ font-size: 25px;
 .ContactUs {
 background-image: -webkit-linear-gradient(#50a3de, #815bec);
 height: 650px;
+align-content: center;
 }
 
 .Contact {
