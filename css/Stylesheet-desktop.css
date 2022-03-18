@@ -596,16 +596,11 @@ font-size: 25px;
 .ContactUs {
 background-image: -webkit-linear-gradient(#50a3de, #815bec);
 height: 650px;
-margin-bottom: 120px;
+/* margin-bottom: 120px; */
 text-align: center;
 /* background-color: #50a3de; */
 padding: 15px;
 width: 100%;
-float: left;
-}
-
-.Contact {
-
 }
 
 #mc_embed_signup {
