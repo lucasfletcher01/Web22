@@ -618,6 +618,10 @@ width: 100%;
 float: right;
 }
 
+#mc_embed_subscribe {
+width: 25px;
+}
+
 .mc-field-group {
 font-size: 20px;
 text-align: center;
@@ -641,9 +645,9 @@ display: inline-block;
 width: 50%;
 }
 
-/* #submit {
+#submit {
 width: 25%;
-} */
+}
 
 #Newsletter {
 width: 50%;
