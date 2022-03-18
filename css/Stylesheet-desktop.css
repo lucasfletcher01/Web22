@@ -595,11 +595,7 @@ font-size: 25px;
 
 .ContactUs {
 background-image: -webkit-linear-gradient(#50a3de, #815bec);
-height: 650px;
-align-content: center;
-}
-
-.Contact {
+/* height: 650px; */
 height: 200px;
 margin-bottom: 120px;
 text-align: center;
@@ -607,6 +603,10 @@ text-align: center;
 padding: 15px;
 width: 100%;
 float: left;
+}
+
+.Contact {
+
 }
 
 #mc_embed_signup {
