@@ -616,7 +616,7 @@ text-align: center;
 padding: 15px;
 width: 50%;
 float: right;
-align-content: center;
+align-content: left;
 }
 
 .mc-field-group {
