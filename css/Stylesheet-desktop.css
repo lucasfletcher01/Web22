@@ -622,13 +622,11 @@ text-align: center;
 }
 
 #mc-embedded-subscribe{
-padding: 40px;
-margin-top: -20px;
+
 }
 
 #mc_embed_signup .mc-field-group input{
- margin-top: 60px;
- margin-bottom: 60px;
+padding: 40px;
 }
 
 .mc-field-group {
