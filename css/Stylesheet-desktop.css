@@ -628,6 +628,10 @@ height: 20px;
 float: none;
 }
 
+#mc_embed_signup {
+ float: none; 
+}
+
 #contact_name {
 width: 25%;
 /* float: left; */
