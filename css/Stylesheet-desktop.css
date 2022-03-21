@@ -635,7 +635,8 @@ float: none;
 }
 
 #mc_embed_signup {
- float: none; 
+ float: none;
+ margin-top: 40px;
 }
 
 #contact_name {
