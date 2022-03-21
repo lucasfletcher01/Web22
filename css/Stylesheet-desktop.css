@@ -605,7 +605,7 @@ width: 100%;
 
 #mc_embed_signup {
 height: 200px;
-margin-bottom: 0px;
+margin-bottom: -10px;
 text-align: center;
 /* background-color: #815bec; */
 padding: 15px;
