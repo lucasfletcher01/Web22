@@ -619,6 +619,10 @@ align-content: center;
 margin-right: 100px;
 }
 
+#mc_embed_signup form{
+text-align: center;
+}
+
 .mc-field-group {
 font-size: 20px;
 text-align: center;
