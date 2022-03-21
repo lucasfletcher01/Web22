@@ -598,7 +598,7 @@ font-size: 25px;
 
 .ContactUs {
 background-image: -webkit-linear-gradient(#50a3de, #815bec);
-height: 650px;
+height: 800px;
 text-align: center;
 padding: 15px;
 width: 100%;
@@ -622,7 +622,7 @@ text-align: center;
 }
 
 #mc_embed_signup .mc-field-group input{
- margin-top: 20px; 
+ margin-top: 20px;
 }
 
 .mc-field-group {
