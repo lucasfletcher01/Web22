@@ -627,7 +627,7 @@ margin-top: -20px;
 }
 
 #mc_embed_signup .mc-field-group input{
- margin-top: -20px;
+ margin-top: -60px;
 }
 
 .mc-field-group {
@@ -644,10 +644,10 @@ float: none;
  margin-top: 40px;
 }
 
-.optionalParent {
+/* .optionalParent {
  float: none;
  margin-top: -40px;
-}
+} */
 
 #contact_name {
 width: 25%;
