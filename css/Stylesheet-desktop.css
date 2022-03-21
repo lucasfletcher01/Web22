@@ -610,7 +610,7 @@ text-align: center;
 /* background-color: #815bec; */
 padding: 15px;
 width: 75%;
-float: right;
+float: none;
 align-content: center;
 margin-right: 100px;
 }
