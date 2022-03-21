@@ -605,16 +605,31 @@ font-size: 25px;
 .ContactUs {
 background-image: -webkit-linear-gradient(#50a3de, #815bec);
 height: 650px;
-}
-
-.Contact {
-height: 200px;
-margin-bottom: 120px;
+/* margin-bottom: 120px; */
 text-align: center;
 /* background-color: #50a3de; */
 padding: 15px;
 width: 100%;
-float: left;
+}
+
+#mc_embed_signup {
+height: 200px;
+margin-bottom: 0px;
+text-align: center;
+/* background-color: #815bec; */
+padding: 15px;
+width: 75%;
+float: right;
+align-content: center;
+margin-right: 100px;
+}
+
+.mc-field-group {
+font-size: 20px;
+text-align: center;
+align-content: center;
+resize: none;
+height: 20px;
 }
 
 .Newsletter {
