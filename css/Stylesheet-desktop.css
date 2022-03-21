@@ -639,6 +639,11 @@ float: none;
  margin-top: 40px;
 }
 
+.optionalParent {
+ float: none;
+ margin-top: -40px;
+}
+
 #contact_name {
 width: 25%;
 /* float: left; */
