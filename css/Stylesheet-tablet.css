@@ -604,125 +604,49 @@ font-size: 25px;
 
 .ContactUs {
 background-image: -webkit-linear-gradient(#50a3de, #815bec);
-height: 650px;
-/* margin-bottom: 120px; */
-text-align: center;
-/* background-color: #50a3de; */
-padding: 15px;
+height: 850px;
+padding: 20px;
 width: 100%;
-}
-
-#mc_embed_signup {
-height: 200px;
-margin-bottom: 0px;
+float: none;
 text-align: center;
-/* background-color: #815bec; */
-padding: 15px;
-width: 75%;
-float: right;
-align-content: center;
-margin-right: 100px;
 }
 
 .mc-field-group {
-font-size: 20px;
-text-align: center;
-align-content: center;
-resize: none;
-height: 20px;
+margin: 30px;
 }
 
-.Newsletter {
-height: 200px;
-margin-bottom: 0px;
-text-align: center;
-/* background-color: #815bec; */
-padding: 15px;
-width: 100%;
-float: right;
+.brandingLogo {
+  margin: 30px;
 }
 
-textarea {
-font-size: 20px;
-text-align: center;
-align-content: center;
-resize: none;
+.required {
+  width: 150px;
 }
 
-.ContactUs {
-background-image: -webkit-linear-gradient(#50a3de, #815bec);
-height: 800px;
-text-align: center;
-padding: 15px;
-width: 100%;
-float: none;
-}
-/* 
-#mc_embed_signup {
-height: 200px;
-margin-bottom: -10px;
-text-align: center;
-/* background-color: #815bec; */
-padding: 40px;
-width: 75%;
-float: none;
-align-content: center;
-margin-right: 100px;
+.requiredEmail {
+  width: 150px;
+  margin-right: 20px;
 }
 
-#mc_embed_signup form{
-text-align: center;
+label {
+  font-size: 25px;
 }
 
-#mc-embedded-subscribe{
-padding: 40px;
+#FormHeader1 {
+    text-align: left;
+    margin-right: 7px;
+    white-space: nowrap;
 }
 
-#mc_embed_signup .mc-field-group input{
-padding: 40px;
+#FormHeader2 {
+    text-align: left;
+    margin-right: 8px;
+    white-space: nowrap;
 }
 
-.mc-field-group {
-font-size: 20px;
-text-align: center;
-align-content: center;
-resize: none;
-height: 20px;
-float: none;
-}
-
-#mc_embed_signup {
- float: none;
- margin-top: 40px;
-} */
-
-#contact_name {
-width: 25%;
-/* float: left; */
-display: inline-block;
-}
-
-#contact_email {
-width: 25%;
-/* float: right; */
-display: inline-block;
-}
-
-#message {
-width: 50%;
-}
-
-#submit {
-width: 25%;
-}
-
-#newsletter_email {
-width: 50%;
-}
-
-#signup {
-width: 25%;
-}
+ .ContactHeading {
+padding: 20px;
+ }
 
 .ScrollToTopBtn{
 margin-bottom:20px;
