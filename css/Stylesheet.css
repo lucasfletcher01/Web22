@@ -635,6 +635,11 @@ width: 100%;
 float: left;
 }
 
+#mc_embed_signup .mc-field-group input {
+    padding: 0px;
+}
+
+
 .Newsletter {
 height: 200px;
 margin-bottom: 0px;
