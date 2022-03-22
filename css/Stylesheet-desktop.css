@@ -598,83 +598,47 @@ font-size: 25px;
 
 .ContactUs {
 background-image: -webkit-linear-gradient(#50a3de, #815bec);
-height: 800px;
-text-align: center;
-padding: 15px;
+height: 850px;
+padding: 20px;
 width: 100%;
 float: none;
-}
-/* 
-#mc_embed_signup {
-height: 200px;
-margin-bottom: -10px;
 text-align: center;
-/* background-color: #815bec; */
-padding: 40px;
-width: 75%;
-float: none;
-align-content: center;
-margin-right: 100px;
-}
-
-#mc_embed_signup form{
-text-align: center;
-}
-
-#mc-embedded-subscribe{
-padding: 40px;
-}
-
-#mc_embed_signup .mc-field-group input{
-padding: 40px;
 }
 
 .mc-field-group {
-font-size: 20px;
-text-align: center;
-align-content: center;
-resize: none;
-height: 20px;
-float: none;
+margin: 30px;
 }
 
-#mc_embed_signup {
- float: none;
- margin-top: 40px;
+.brandingLogo {
+  margin: 30px;
 }
 
-/* .optionalParent {
- float: none;
- margin-top: -40px;
-} */ */
-
-#contact_name {
-width: 25%;
-/* float: left; */
-display: inline-block;
+.required {
+  width: 900px;
 }
 
-#contact_email {
-width: 25%;
-/* float: right; */
-display: inline-block;
+.requiredEmail {
+  width: 900px;
 }
 
-#message {
-width: 50%;
+label {
+  font-size: 25px;
+  scroll-margin-top: 5rem;
 }
 
-#submit {
-width: 25%;
+#FormHeader1 {
+    text-align: left;
+    margin-right: 780px;
 }
 
-#Newsletter {
-width: 50%;
+#FormHeader2 {
+    text-align: left;
+    margin-right: 700px;
 }
 
-#signup {
-width: 25%;
-}
+ .ContactHeading {
+padding: 20px;
+ }
 
 .ScrollToTopBtn{
 margin-bottom:20px;
