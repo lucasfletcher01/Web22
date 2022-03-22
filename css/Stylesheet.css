@@ -42,7 +42,7 @@ font-family: "Josefin Sans";
        url('../fonts/josefin-sans-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/josefin-sans-v23-latin-700.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
        url('../fonts/JosefinSans-Bold.ttf') format('truetype'); /*Android, iOS */
-      
+
 }
 
 
@@ -114,7 +114,7 @@ p2{
 font-size: 25px;
 font-family: "Josefin Sans Regular";
 }
-  
+
 .Logo {
   padding: 5px;
 /*   max-width: 40%;
@@ -622,69 +622,49 @@ font-size: 25px;
 
 .ContactUs {
 background-image: -webkit-linear-gradient(#50a3de, #815bec);
-height: 650px;
-}
-
-.Contact {
-height: 200px;
-margin-bottom: 120px;
-text-align: center;
-/* background-color: #50a3de; */
-padding: 15px;
+height: 850px;
+padding: 20px;
 width: 100%;
-float: left;
-}
-
-#mc_embed_signup .mc-field-group input {
-    padding: 0px;
-}
-
-
-.Newsletter {
-height: 200px;
-margin-bottom: 0px;
+float: none;
 text-align: center;
-/* background-color: #815bec; */
-padding: 15px;
-width: 100%;
-float: right;
 }
 
-textarea {
-font-size: 20px;
-text-align: center;
-align-content: center;
-resize: none;
-font-family: "Josefin Sans Regular";
+.mc-field-group {
+margin: 30px;
 }
 
-#contact_name {
-width: 45%;
-/* float: left; */
-display: inline-block;
+.brandingLogo {
+  margin: 30px;
 }
 
-#contact_email {
-width: 45%;
-/* float: right; */
-display: inline-block;
+.required {
+  width: 300px;
 }
 
-#message {
-width: 90%;
+.requiredEmail {
+  width: 300px;
+  margin-right: 20px;
 }
 
-#submit {
-width: 45%;
+label {
+  font-size: 25px;
 }
 
-#newsletter_email {
-width: 90%;
+#FormHeader1 {
+    text-align: left;
+    margin-right: 7px;
+    white-space: nowrap;
 }
 
-#signup {
-width: 45%;
+#FormHeader2 {
+    text-align: left;
+    margin-right: 8px;
+    white-space: nowrap;
 }
+
+ .ContactHeading {
+padding: 20px;
+ }
 
 .ScrollToTopBtn{
 margin-bottom:20px;
